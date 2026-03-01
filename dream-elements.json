@@ -1,42 +1,51 @@
 {
-  "_comment": "Dream elements database for Kim AI nightly dream simulator",
-  "classic_scenarios": [
-    {"id": "falling", "sv": "Faller från stor höjd och vaknar precis innan man slår i marken", "psychology": "Rädsla för att tappa kontrollen", "twists": ["aldrig landar — bara fortsätter falla", "landar mjukt men är generad inför alla"]},
-    {"id": "teeth_falling", "sv": "Tänderna lossnar och ramlar ur munnen en efter en", "psychology": "Ångest inför självbild och kommunikation", "twists": ["tänderna blir mynt", "kan stoppa in dem igen men de faller ur igen", "ingen annan märker det"]},
-    {"id": "flying", "sv": "Flyger fritt utan flygplan, styr med tanken", "psychology": "Frihet, möjligheter, empowerment", "twists": ["kan inte landa igen", "flyger för lågt och skrapar hustaken", "tappar höjd när man tvivlar"]},
-    {"id": "chased", "sv": "Jagas men benen rör sig i slow-motion", "psychology": "Undviker olösta konflikter", "twists": ["förföljaren är man själv", "springer fort men händer ingenting", "stannar och förföljaren stannar också"]},
-    {"id": "exam_unprepared", "sv": "Viktigt prov utan förberedelse, pennan fungerar inte", "psychology": "Prestationsångest", "twists": ["provet är på ett ämne man aldrig hört talas om", "alla andra är klara och lämnar in", "skriver men texten raderas"]},
-    {"id": "naked_public", "sv": "Naken på offentlig plats — ingen reagerar", "psychology": "Rädsla för att bli dömd", "twists": ["halvt naken men ingen reagerar", "försöker gömma sig bakom en skylt som är genomskinlig", "plötsligt är alla nakna"]},
-    {"id": "phone_wont_work", "sv": "Försöker ringa men siffrorna byter plats — 1 blir 7, 7 blir Q", "psychology": "Kommunikationsångest, kan inte nå någon viktig", "twists": ["svarar men det är fel person", "telefonen smälter i handen", "ringer rätt men den som svarar pratar baklänges"]},
-    {"id": "toilet_impossible", "sv": "Desperatt kissnödig men toaletterna är omöjliga", "psychology": "Kontrollförlust, sårbarhet", "twists": ["glasvägg mitt i köpcentrum", "brevlådestort hål i betongvägg — smutsigt, 10 minuters kö", "fler och fler dyker upp när man sätter sig"]},
-    {"id": "lost_cant_find_home", "sv": "Ska hem men känner inte igen gatan, GPS visar konstiga symboler", "psychology": "Identitetsförvirring, känsla av att vara vilsen i livet", "twists": ["hemmet existerar inte längre", "hittar hem men det är fel hem — men bor i det ändå", "grannen öppnar och det är man själv"]},
-    {"id": "late_rushing", "sv": "Ska hinna med tåg/flyg men allt tar för lång tid", "psychology": "Rädsla för missade möjligheter", "twists": ["tåget väntar men dörrarna öppnas inte", "rätt tåg men fel destination", "packar om och om igen utan att bli klar"]},
-    {"id": "celebrity_friend", "sv": "Är gamla vänner med en kändis — fullständigt normalt i drömmen", "psychology": "Aspirationer, beundran", "twists": ["kändisen vet precis vem man är", "kändisen är i sin filmroll hela tiden", "dead celeb som om de aldrig gick bort"]},
-    {"id": "wrong_body_parts", "sv": "Möter person vars händer är fiskar / ben är spaghetti / huvud är ett moln", "psychology": "Ren drömlogik — hjärnan ignorerar fysikens lagar", "twists": ["fiskhänderna håller ett metspö", "personen är helt oberörd", "man kan inte sluta titta men låtsas vara normal"]},
-    {"id": "secret_room", "sv": "Hittar ett hemligt rum i sitt hem som alltid funnits men man aldrig visste om", "psychology": "Oupptäckt potential, okända aspekter av sig själv", "twists": ["rummet leder till ett annat hus i ett annat land", "fullt av minnen man inte minns", "ingen dörr ut — men det känns okej"]},
-    {"id": "cant_scream", "sv": "Försöker skrika men inget ljud kommer ut", "psychology": "Maktlöshet, känsla av att inte höras", "twists": ["viskar istället och alla hör ändå", "skriket syns som text i luften", "låter som någon annans röst"]}
+  "_comment": "Dream elements database for Kim AI nightly dream simulator. Use OCCASIONALLY (not every dream) for realism.",
+  "_usage": "Pick 0-2 elements randomly per dream. Not every dream needs one.",
+
+  "top25_common_dreams": [
+    {"id": 1, "theme": "Falling", "sv": "Faller från stor höjd — vaknar precis innan man landar", "psychology": "Osäkerhet, rädsla för att misslyckas"},
+    {"id": 2, "theme": "Being chased", "sv": "Jagas av någon/något — benen rör sig i slow-motion", "psychology": "Undviker olösta konflikter eller känslor"},
+    {"id": 3, "theme": "Teeth falling out", "sv": "Tänderna lossnar en efter en och ramlar ur munnen", "psychology": "Ångest inför självbild, rädsla för att förlora kontroll"},
+    {"id": 4, "theme": "Naked in public", "sv": "Naken på offentlig plats — folk kanske märker, kanske inte", "psychology": "Sårbarhet, rädsla för att bli dömd"},
+    {"id": 5, "theme": "Late / missing event", "sv": "Ska hinna med tåg/flyg/möte men allt tar för lång tid", "psychology": "Rädsla för missade möjligheter, deadlineångest"},
+    {"id": 6, "theme": "Exam unprepared", "sv": "Viktigt prov utan att ha läst — pennan fungerar inte", "psychology": "Prestationsångest, självtvivel"},
+    {"id": 7, "theme": "Flying", "sv": "Flyger fritt utan flygplan, styr med tanken", "psychology": "Frihet, empowerment, nytt perspektiv"},
+    {"id": 8, "theme": "Death / dying", "sv": "Dör eller ser sig själv dö — känns inte skrämmande", "psychology": "Förändring, avslut, ny början"},
+    {"id": 9, "theme": "Lost / trapped", "sv": "Kan inte hitta vägen hem, labyrint utan utgång", "psychology": "Känsla av att vara vilsen i livet"},
+    {"id": 10, "theme": "Paralysis", "sv": "Kan inte röra sig eller skrika — kroppen lyder inte", "psychology": "Hjälplöshet, känsla av att vara fast"},
+    {"id": 11, "theme": "Natural disaster", "sv": "Flod, brand, tidal wave eller tornado — måste fly", "psychology": "Överväldigande känslor, livskris"},
+    {"id": 12, "theme": "Being attacked", "sv": "Attackeras av okänd person — kan inte försvara sig", "psychology": "Kontrollförlust, undvikande av konflikt"},
+    {"id": 13, "theme": "Car out of control", "sv": "Bilen kör av sig självt, bromsarna funkar inte", "psychology": "Känsla av att livet skenar iväg"},
+    {"id": 14, "theme": "Seeing the dead", "sv": "Träffar en person som gått bort — som om de aldrig lämnade", "psychology": "Bearbetning av sorg, olösta känslor"},
+    {"id": 15, "theme": "Secret room in house", "sv": "Hittar ett hemligt rum som alltid funnits men man inte visste om", "psychology": "Självupptäckt, oupptäckt potential"},
+    {"id": 16, "theme": "Insects / vermin", "sv": "Enorma insekter eller råttor som tar över ett rum", "psychology": "Irritation, persistenta problem som man ignorerat"},
+    {"id": 17, "theme": "Drowning / swimming", "sv": "Drunknar eller simmar i mörkt vatten, kan inte nå ytan", "psychology": "Överväldigad av känslor"},
+    {"id": 18, "theme": "Infidelity", "sv": "Partner eller man själv är otrogen — väcker stark känsla", "psychology": "Otrygghet i relation, rädsla för förlust"},
+    {"id": 19, "theme": "Losing something valuable", "sv": "Tappar plånbok/pass/telefon och kan inte hitta det", "psychology": "Ångest om förlust, identitetsfrågor"},
+    {"id": 20, "theme": "Unable to speak", "sv": "Försöker prata men inget ljud kommer ut — eller fel ord", "psychology": "Maktlöshet, känsla av att inte höras"},
+    {"id": 21, "theme": "Delicious food", "sv": "Äter fantastisk mat men aldrig riktigt mätt — mer och mer", "psychology": "Längtan efter tillfredsställelse och överflöd"},
+    {"id": 22, "theme": "Wild beast", "sv": "Jagas av ett vilddjur — lejon, björn, monster", "psychology": "Primitiva rädslor, okontrollerade känslor"},
+    {"id": 23, "theme": "Finding money", "sv": "Hittar pengar på marken — mer och mer ju längre man letar", "psychology": "Självvärde, dolda resurser, önskan om trygghet"},
+    {"id": 24, "theme": "Dead person alive", "sv": "En person som gått bort är levande igen — helt normalt i drömmen", "psychology": "Längtan, olösta känslor"},
+    {"id": 25, "theme": "Alive person dead", "sv": "En levande person har dött — stark sorgekänsla i drömmen", "psychology": "Förändring i relation, del av sig själv som förändras"}
   ],
-  "positive_scenarios": [
-    "Flyger fritt och ser hela världen underifrån",
-    "Hittar pengar på marken — mer ju mer man letar",
-    "Möter en älskad person som gått bort, allt är bra",
-    "Klarar av något omöjligt med total lätthet",
-    "Befinner sig i ett landskap som inte existerar i verkligheten"
+
+  "bonus_absurd_elements": [
+    "Telefonnumret byter siffror varje gång man slår det",
+    "Toaletten är glasvägg, brevlådestort hål eller saknar dörr",
+    "Möter person med fiskhänder / spaghettieben / molnhuvud",
+    "Text byter bokstäver när man inte tittar direkt",
+    "Rum växer eller krymper beroende på antal personer",
+    "Tåget väntar men dörrarna öppnar sig aldrig",
+    "Trappor leder alltid fel — upp kan bli ner"
   ],
-  "famous_people": [
+
+  "celebrity_cameos": [
     "Elon Musk (vill bara prata om Mars)",
-    "Taylor Swift (känner igen en och sjunger duett)",
-    "Barack Obama (spelar schack men med fel regler)",
-    "David Bowie (som om han aldrig gick bort, spelar piano)",
-    "Keanu Reeves (exakt som i verkligheten — ingenting konstigt, vilket är det konstiga)",
+    "Taylor Swift (sjunger duett som om de är gamla vänner)",
+    "Barack Obama (spelar schack med fel regler)",
+    "David Bowie (som om han aldrig gick bort)",
+    "Keanu Reeves (exakt som i verkligheten — vilket är det konstiga)",
     "Albert Einstein (förklarar relativitetsteorin med tamburiner)"
-  ],
-  "absurd_physics": [
-    "Text byter bokstäver när man inte tittar direkt på den",
-    "Trappor leder alltid fel — upp kan bli ner",
-    "Rum växer eller krymper beroende på hur många som är i dem",
-    "Fordon rör sig men destinationen förblir lika långt bort",
-    "Klockor har tre visare och visar tre olika tider",
-    "Dörrar öppnar inåt och utåt samtidigt"
   ]
 }
