@@ -284,7 +284,7 @@ async function loadDreams() {
     const res = await fetch('dreams.json?v=' + Date.now());
     const dreams = await res.json();
     document.getElementById('loading').style.display = 'none';
-    const sorted = [...dreams].sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id));
+    const sorted = [...dreams].sort((a, b) => b.date.localeCompare(a.date));
     const count = dreams.length;
     document.getElementById('dream-count').textContent =
       `${count} dröm${count !== 1 ? 'mar' : ''} sedan starten`;
