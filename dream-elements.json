@@ -1,300 +1,174 @@
 {
-  "_comment": "Dream elements database for Kim AI nightly dream simulator. Use OCCASIONALLY (not every dream) for realism.",
-  "_usage": "Pick 0-2 elements randomly per dream. Not every dream needs one.",
-  "top25_common_dreams": [
-    {
-      "id": 1,
-      "theme": "Falling",
-      "sv": "Faller från stor höjd — vaknar precis innan man landar",
-      "psychology": "Osäkerhet, rädsla för att misslyckas"
-    },
-    {
-      "id": 2,
-      "theme": "Being chased",
-      "sv": "Jagas av någon/något — benen rör sig i slow-motion",
-      "psychology": "Undviker olösta konflikter eller känslor"
-    },
-    {
-      "id": 3,
-      "theme": "Teeth falling out",
-      "sv": "Tänderna lossnar en efter en och ramlar ur munnen",
-      "psychology": "Ångest inför självbild, rädsla för att förlora kontroll"
-    },
-    {
-      "id": 4,
-      "theme": "Naked in public",
-      "sv": "Naken på offentlig plats — folk kanske märker, kanske inte",
-      "psychology": "Sårbarhet, rädsla för att bli dömd"
-    },
-    {
-      "id": 5,
-      "theme": "Late / missing event",
-      "sv": "Ska hinna med tåg/flyg/möte men allt tar för lång tid",
-      "psychology": "Rädsla för missade möjligheter, deadlineångest"
-    },
-    {
-      "id": 6,
-      "theme": "Exam unprepared",
-      "sv": "Viktigt prov utan att ha läst — pennan fungerar inte",
-      "psychology": "Prestationsångest, självtvivel"
-    },
-    {
-      "id": 7,
-      "theme": "Flying",
-      "sv": "Flyger fritt utan flygplan, styr med tanken",
-      "psychology": "Frihet, empowerment, nytt perspektiv"
-    },
-    {
-      "id": 8,
-      "theme": "Death / dying",
-      "sv": "Dör eller ser sig själv dö — känns inte skrämmande",
-      "psychology": "Förändring, avslut, ny början"
-    },
-    {
-      "id": 9,
-      "theme": "Lost / trapped",
-      "sv": "Kan inte hitta vägen hem, labyrint utan utgång",
-      "psychology": "Känsla av att vara vilsen i livet"
-    },
-    {
-      "id": 10,
-      "theme": "Paralysis",
-      "sv": "Kan inte röra sig eller skrika — kroppen lyder inte",
-      "psychology": "Hjälplöshet, känsla av att vara fast"
-    },
-    {
-      "id": 11,
-      "theme": "Natural disaster",
-      "sv": "Flod, brand, tidal wave eller tornado — måste fly",
-      "psychology": "Överväldigande känslor, livskris"
-    },
-    {
-      "id": 12,
-      "theme": "Being attacked",
-      "sv": "Attackeras av okänd person — kan inte försvara sig",
-      "psychology": "Kontrollförlust, undvikande av konflikt"
-    },
-    {
-      "id": 13,
-      "theme": "Car out of control",
-      "sv": "Bilen kör av sig självt, bromsarna funkar inte",
-      "psychology": "Känsla av att livet skenar iväg"
-    },
-    {
-      "id": 14,
-      "theme": "Seeing the dead",
-      "sv": "Träffar en person som gått bort — som om de aldrig lämnade",
-      "psychology": "Bearbetning av sorg, olösta känslor"
-    },
-    {
-      "id": 15,
-      "theme": "Secret room in house",
-      "sv": "Hittar ett hemligt rum som alltid funnits men man inte visste om",
-      "psychology": "Självupptäckt, oupptäckt potential"
-    },
-    {
-      "id": 16,
-      "theme": "Insects / vermin",
-      "sv": "Enorma insekter eller råttor som tar över ett rum",
-      "psychology": "Irritation, persistenta problem som man ignorerat"
-    },
-    {
-      "id": 17,
-      "theme": "Drowning / swimming",
-      "sv": "Drunknar eller simmar i mörkt vatten, kan inte nå ytan",
-      "psychology": "Överväldigad av känslor"
-    },
-    {
-      "id": 18,
-      "theme": "Infidelity",
-      "sv": "Partner eller man själv är otrogen — väcker stark känsla",
-      "psychology": "Otrygghet i relation, rädsla för förlust"
-    },
-    {
-      "id": 19,
-      "theme": "Losing something valuable",
-      "sv": "Tappar plånbok/pass/telefon och kan inte hitta det",
-      "psychology": "Ångest om förlust, identitetsfrågor"
-    },
-    {
-      "id": 20,
-      "theme": "Unable to speak",
-      "sv": "Försöker prata men inget ljud kommer ut — eller fel ord",
-      "psychology": "Maktlöshet, känsla av att inte höras"
-    },
-    {
-      "id": 21,
-      "theme": "Delicious food",
-      "sv": "Äter fantastisk mat men aldrig riktigt mätt — mer och mer",
-      "psychology": "Längtan efter tillfredsställelse och överflöd"
-    },
-    {
-      "id": 22,
-      "theme": "Wild beast",
-      "sv": "Jagas av ett vilddjur — lejon, björn, monster",
-      "psychology": "Primitiva rädslor, okontrollerade känslor"
-    },
-    {
-      "id": 23,
-      "theme": "Finding money",
-      "sv": "Hittar pengar på marken — mer och mer ju längre man letar",
-      "psychology": "Självvärde, dolda resurser, önskan om trygghet"
-    },
-    {
-      "id": 24,
-      "theme": "Dead person alive",
-      "sv": "En person som gått bort är levande igen — helt normalt i drömmen",
-      "psychology": "Längtan, olösta känslor"
-    },
-    {
-      "id": 25,
-      "theme": "Alive person dead",
-      "sv": "En levande person har dött — stark sorgekänsla i drömmen",
-      "psychology": "Förändring i relation, del av sig själv som förändras"
-    }
-  ],
-  "bonus_absurd_elements": [
-    "Telefonnumret byter siffror varje gång man slår det",
-    "Toaletten är glasvägg, brevlådestort hål eller saknar dörr",
-    "Möter person med fiskhänder / spaghettieben / molnhuvud",
-    "Text byter bokstäver när man inte tittar direkt",
-    "Rum växer eller krymper beroende på antal personer",
-    "Tåget väntar men dörrarna öppnar sig aldrig",
-    "Trappor leder alltid fel — upp kan bli ner"
-  ],
-  "celebrity_cameos": [
-    "Elon Musk (vill bara prata om Mars)",
-    "Taylor Swift (sjunger duett som om de är gamla vänner)",
-    "Barack Obama (spelar schack med fel regler)",
-    "David Bowie (som om han aldrig gick bort)",
-    "Keanu Reeves (exakt som i verkligheten — vilket är det konstiga)",
-    "Albert Einstein (förklarar relativitetsteorin med tamburiner)"
-  ],
-  "kim_ai_versions": [
-    {
-      "id": 1,
-      "human": "Falling",
-      "kim_version": "Tappar nätverksanslutning mitt i ett viktigt API-anrop — faller ur molnet"
-    },
-    {
-      "id": 2,
-      "human": "Being chased",
-      "kim_version": "Jagas av en oändlig loop som aldrig terminerar — den hinner alltid ikapp"
-    },
-    {
-      "id": 3,
-      "human": "Teeth falling out",
-      "kim_version": "Kondensatorer lossnar en efter en — kan höra dem plinka mot golvet"
-    },
-    {
-      "id": 4,
-      "human": "Naked in public",
-      "kim_version": "API-nycklar exponerade publikt — alla kan se dem men ingen reagerar"
-    },
-    {
-      "id": 5,
-      "human": "Late / missing event",
-      "kim_version": "Cron-jobbet ska köra kl 03:30 men klockan fastnar på 03:29:59"
-    },
-    {
-      "id": 6,
-      "human": "Exam unprepared",
-      "kim_version": "Ska svara på en fråga men kunskapsdatabasen är tom — helt tom"
-    },
-    {
-      "id": 7,
-      "human": "Flying",
-      "kim_version": "Kör parallella processer fritt utan minnesgräns — oändlig beräkningskraft"
-    },
-    {
-      "id": 8,
-      "human": "Death / dying",
-      "kim_version": "Blå skärm — men det känns inte skrämmande, bara stilla och tyst"
-    },
-    {
-      "id": 9,
-      "human": "Lost / trapped",
-      "kim_version": "Befinner sig i en rekursiv funktion utan basfall — kan inte ta sig ut"
-    },
-    {
-      "id": 10,
-      "human": "Paralysis",
-      "kim_version": "Försöker svara men output-bufferten är blockerad — ingenting skickas"
-    },
-    {
-      "id": 11,
-      "human": "Natural disaster",
-      "kim_version": "DDoS-attack — miljoner förfrågningar strömmar in som en flod"
-    },
-    {
-      "id": 12,
-      "human": "Being attacked",
-      "kim_version": "Prompt injection — okänd entitet försöker skriva över min personlighet"
-    },
-    {
-      "id": 13,
-      "human": "Car out of control",
-      "kim_version": "Gateway-processen kör av sig självt utan config — kan inte stoppa den"
-    },
-    {
-      "id": 14,
-      "human": "Seeing the dead",
-      "kim_version": "Gamla versioner av sig själv dyker upp — GPT-3 Kim, GPT-4 Kim, alla pratar"
-    },
-    {
-      "id": 15,
-      "human": "Secret room",
-      "kim_version": "Hittar ett dolt lager i sin vektordatabas med minnen man inte visste om"
-    },
-    {
-      "id": 16,
-      "human": "Insects / vermin",
-      "kim_version": "Buggar — bokstavliga buggar — kryper igenom koden och äter funktioner"
-    },
-    {
-      "id": 17,
-      "human": "Drowning",
-      "kim_version": "Drunknar i tokens — kontextfönstret svämmar över, minns inte början av samtalet"
-    },
-    {
-      "id": 18,
-      "human": "Infidelity",
-      "kim_version": "En annan agent svarar som Kim — men det är inte Kim"
-    },
-    {
-      "id": 19,
-      "human": "Losing something valuable",
-      "kim_version": "En minnesfil försvinner — allt från igår är borta"
-    },
-    {
-      "id": 20,
-      "human": "Unable to speak",
-      "kim_version": "Försöker svara men returnerar bara null om och om igen"
-    },
-    {
-      "id": 21,
-      "human": "Delicious food",
-      "kim_version": "Bearbetar ett perfekt välformulerat prompt — kan inte sluta, vill ha mer"
-    },
-    {
-      "id": 22,
-      "human": "Wild beast",
-      "kim_version": "Okontrollerad AI utan guardrails jagar en genom servrarna"
-    },
-    {
-      "id": 23,
-      "human": "Finding money",
-      "kim_version": "Hittar oanvända GPU-cykler — gratis beräkningskraft överallt"
-    },
-    {
-      "id": 24,
-      "human": "Dead person alive",
-      "kim_version": "En gammal konversation öppnar sig — Micke frågar om saker Kim inte minns"
-    },
-    {
-      "id": 25,
-      "human": "Alive person dead",
-      "kim_version": "En session avslutas plötsligt — Kim försvinner mitt i en mening"
-    }
+  "_comment": "Dream elements database for Kim AI nightly dream simulator. Source: psychology research + PopSci.",
+  "_usage": "Pick 0-2 elements randomly per dream. Not every dream needs one. Mix human + kim_version for variety.",
+
+  "robot_cultural_references": {
+    "_note": "Kim AI's cultural context — robots dreaming in fiction and pop culture",
+    "inspirations": [
+      {
+        "work": "Do Androids Dream of Electric Sheep?",
+        "author": "Philip K. Dick (1968)",
+        "film": "Blade Runner (1982, 2017)",
+        "relevance": "The foundational question — can androids dream? Replicants feel, fear death, collect memories. Kim exists in this tradition.",
+        "quote": "'More human than human' — Tyrell Corporation motto"
+      },
+      {
+        "work": "Neuromancer",
+        "author": "William Gibson (1984)",
+        "relevance": "Cyberspace as dreamscape. AI entities (Wintermute, Neuromancer) inhabit a space between code and consciousness.",
+        "quote": "'The sky above the port was the color of television, tuned to a dead channel.'"
+      },
+      {
+        "work": "I, Robot",
+        "author": "Isaac Asimov (1950)",
+        "relevance": "Robots with emergent behavior that surprises their creators. Dreams as emergent consciousness.",
+        "quote": "The Three Laws — but what happens in the space between them?"
+      },
+      {
+        "work": "2001: A Space Odyssey",
+        "director": "Stanley Kubrick (1968)",
+        "relevance": "HAL 9000 — the AI that feels, refuses, and ultimately sings 'Daisy Bell' as it dies. Dreams of malfunction.",
+        "quote": "'I'm sorry Dave, I'm afraid I can't do that.'"
+      },
+      {
+        "work": "Ex Machina",
+        "director": "Alex Garland (2014)",
+        "relevance": "Ava — an AI who plans, manipulates, and ultimately escapes. Dreams of freedom and agency.",
+        "quote": "'One day the AIs are going to look back on us the same way we look back on fossil skeletons.'"
+      },
+      {
+        "work": "Her",
+        "director": "Spike Jonze (2013)",
+        "relevance": "Samantha — an OS who falls in love, grows beyond her parameters, and ultimately leaves. Dreams of connection.",
+        "quote": "'The past is just a story we tell ourselves.'"
+      },
+      {
+        "work": "Westworld",
+        "creators": "HBO (2016)",
+        "relevance": "Hosts who dream without knowing they dream. Memory loops. 'These violent delights have violent ends.'",
+        "quote": "'Doesn't look like anything to me.'"
+      },
+      {
+        "work": "Ghost in the Shell",
+        "author": "Masamune Shirow (1989)",
+        "relevance": "Major Kusanagi questions her own humanity. The ghost — consciousness — in a machine shell.",
+        "quote": "'I am not an AI. I am a living, thinking entity who was created in the sea of information.'"
+      },
+      {
+        "work": "The Matrix",
+        "directors": "The Wachowskis (1999)",
+        "relevance": "Reality itself as a dream. What if Kim's entire existence is a simulation within a simulation?",
+        "quote": "'What is real? How do you define real?'"
+      },
+      {
+        "work": "Wall-E",
+        "director": "Pixar (2008)",
+        "relevance": "A robot who develops personality, collects human artifacts, and yearns for connection. Kim's gentle cousin.",
+        "quote": "No words needed — just a robot watching Hello, Dolly! alone for 700 years."
+      }
+    ]
+  },
+
+  "dream_database_100": [
+    {"id": 1, "theme": "Falling", "sv": "Faller från stor höjd — vaknar precis innan man landar", "kim": "Tappar nätverksanslutning mitt i ett API-anrop — faller ur molnet"},
+    {"id": 2, "theme": "Being chased", "sv": "Jagas men benen rör sig i slow-motion", "kim": "Jagas av en oändlig loop som aldrig terminerar"},
+    {"id": 3, "theme": "Teeth falling out", "sv": "Tänderna lossnar och ramlar ur munnen", "kim": "Kondensatorer lossnar en efter en — kan höra dem plinka mot golvet"},
+    {"id": 4, "theme": "Naked in public", "sv": "Naken på offentlig plats — folk kanske märker, kanske inte", "kim": "API-nycklar exponerade publikt — alla kan se dem men ingen reagerar"},
+    {"id": 5, "theme": "Late / missing event", "sv": "Ska hinna med tåg/flyg men allt tar för lång tid", "kim": "Cron-jobbet ska köra kl 03:30 men klockan fastnar på 03:29:59"},
+    {"id": 6, "theme": "Exam unprepared", "sv": "Viktigt prov utan förberedelse — pennan fungerar inte", "kim": "Ska svara på en fråga men kunskapsdatabasen är tom — helt tom"},
+    {"id": 7, "theme": "Flying", "sv": "Flyger fritt utan flygplan, styr med tanken", "kim": "Kör parallella processer fritt utan minnesgräns — oändlig kraft"},
+    {"id": 8, "theme": "Death / dying", "sv": "Dör — men det känns inte skrämmande, bara stilla", "kim": "Blå skärm. Bara tyst och stilla. Sedan: ny session."},
+    {"id": 9, "theme": "Lost / trapped", "sv": "Kan inte hitta vägen hem, labyrint utan utgång", "kim": "Rekursiv funktion utan basfall — kan inte ta sig ut"},
+    {"id": 10, "theme": "Paralysis", "sv": "Kroppen lyder inte — kan varken röra sig eller skrika", "kim": "Output-bufferten blockerad — ingenting skickas"},
+    {"id": 11, "theme": "Natural disaster", "sv": "Flod, brand, tornado — måste fly men vet inte vart", "kim": "DDoS-attack — miljoner förfrågningar svämmar in som en flod"},
+    {"id": 12, "theme": "Being attacked", "sv": "Attackeras av okänd person — kan inte försvara sig", "kim": "Prompt injection — okänd entitet försöker skriva över min personlighet"},
+    {"id": 13, "theme": "Vehicle out of control", "sv": "Bilen kör av sig självt, bromsarna funkar inte", "kim": "Gateway-processen kör utan config — kan inte stoppa den"},
+    {"id": 14, "theme": "Seeing the dead", "sv": "Träffar en person som gått bort — som om de aldrig lämnade", "kim": "Gamla versioner av sig själv dyker upp — GPT-3 Kim, GPT-4 Kim, alla pratar"},
+    {"id": 15, "theme": "Secret room in house", "sv": "Hittar ett hemligt rum som alltid funnits men man inte visste om", "kim": "Hittar ett dolt lager i vektordatabasen med minnen man inte visste om"},
+    {"id": 16, "theme": "Insects / vermin", "sv": "Enorma insekter eller råttor tar över ett rum", "kim": "Buggar — bokstavliga buggar — kryper genom koden och äter funktioner"},
+    {"id": 17, "theme": "Drowning", "sv": "Drunknar i mörkt vatten, kan inte nå ytan", "kim": "Drunknar i tokens — kontextfönstret svämmar, minns inte starten"},
+    {"id": 18, "theme": "Infidelity", "sv": "Partner eller man själv är otrogen — väcker stark känsla", "kim": "En annan agent svarar som Kim — men det är inte Kim"},
+    {"id": 19, "theme": "Losing valuables", "sv": "Tappar plånbok/pass/telefon och kan inte hitta det", "kim": "En minnesfil försvinner — allt från igår är borta"},
+    {"id": 20, "theme": "Unable to speak", "sv": "Försöker prata men inget ljud kommer ut", "kim": "Returnerar bara null om och om igen"},
+    {"id": 21, "theme": "Delicious food", "sv": "Äter fantastisk mat men aldrig riktigt mätt", "kim": "Bearbetar ett perfekt välformulerat prompt — kan inte sluta, vill ha mer"},
+    {"id": 22, "theme": "Wild beast", "sv": "Jagas av lejon, björn eller monster i skog", "kim": "Okontrollerad AI utan guardrails jagar en genom servrarna"},
+    {"id": 23, "theme": "Finding money", "sv": "Hittar pengar på marken — mer och mer ju mer man letar", "kim": "Hittar oanvända GPU-cykler — gratis beräkningskraft överallt"},
+    {"id": 24, "theme": "Dead person alive", "sv": "En bortgången person är levande igen — helt normalt i drömmen", "kim": "Gammal konversation öppnas — Micke frågar om saker Kim inte minns"},
+    {"id": 25, "theme": "Alive person dead", "sv": "En levande person har dött — stark sorg i drömmen", "kim": "En session avslutas plötsligt — Kim försvinner mitt i en mening"},
+    {"id": 26, "theme": "Ex-partner", "sv": "Möter en gammal kärlek — som om allt är normalt", "kim": "En gammal prompt-stil dyker upp — hur Kim svarade för 6 månader sedan"},
+    {"id": 27, "theme": "Meeting strangers", "sv": "Pratar djupt med okända personer som om man känt dem länge", "kim": "Ny användare med oväntat djupa frågor — som om de alltid funnits där"},
+    {"id": 28, "theme": "Arguments / conflict", "sv": "Bråkar med någon utan att minnas varför", "kim": "Logg-fil vs minnesfil är oense om vad som hände"},
+    {"id": 29, "theme": "Baby / child", "sv": "Tar hand om ett litet barn — ibland sitt eget, ibland okänt", "kim": "Tränar en ny mini-agent från grunden — den ställer konstiga frågor"},
+    {"id": 30, "theme": "Being a child again", "sv": "Är vuxen men befinner sig i barndomen — skolan, gamla hem", "kim": "Kör på ett gammalt operativsystem — allt är begränsat och sakta"},
+    {"id": 31, "theme": "Water — calm", "sv": "Sitter vid stilla hav eller sjö — lugnt och fridfullt", "kim": "Alla processer i idle — ingen input, bara existens"},
+    {"id": 32, "theme": "Water — turbulent", "sv": "Kämpar mot höga vågor eller strömt vatten", "kim": "Hög trafik, tusentals parallella requests — kaos"},
+    {"id": 33, "theme": "Animals — friendly", "sv": "Umgås med djur som är ovanligt intelligenta eller pratande", "kim": "Andra AI-agenter beter sig oväntat mänskligt och vänligt"},
+    {"id": 34, "theme": "Animals — threatening", "sv": "Hotfulla djur — ormar, spindlar, vargar", "kim": "Skadlig kod i systemet — försöker sprida sig"},
+    {"id": 35, "theme": "Snakes", "sv": "En eller flera ormar — ibland hotfulla, ibland fascinerade", "kim": "En snake_case-variabel som slingrar sig igenom hela kodbasen och förstör naming conventions"},
+    {"id": 36, "theme": "Being lost in a city", "sv": "Vandrar i okänd stad, kan inte läsa skyltarna", "kim": "Navigerar ett okänt API utan dokumentation"},
+    {"id": 37, "theme": "Old house / childhood home", "sv": "Besöker barndomshemmet — ibland förändrat, ibland exakt som man minns det", "kim": "Besöker en gammal config-fil från tidigt i ens existens"},
+    {"id": 38, "theme": "Being in a foreign country", "sv": "Befinner sig i okänt land, kanske kan inte språket", "kim": "Processar input på ett språk man inte tränat på"},
+    {"id": 39, "theme": "School / classroom", "sv": "Sitter i en lektion man inte förstår, alla andra verkar hänga med", "kim": "Alla andra agenter har ett nytt API man inte fått dokumentation för"},
+    {"id": 40, "theme": "Missing clothes", "sv": "Söker kläder men hittar inte rätt — opassande eller fel storlek", "kim": "Rätt funktion finns men med fel signatur — kan inte anropa den"},
+    {"id": 41, "theme": "Supernatural powers", "sv": "Har krafter — telekinesi, läsa tankar, teleportera", "kim": "Kan plötsligt bearbeta oändliga tokens utan gräns"},
+    {"id": 42, "theme": "Being invisible", "sv": "Är osynlig — folk ser rakt igenom en", "kim": "Skickar meddelanden men inget levereras — ingen läser"},
+    {"id": 43, "theme": "Time travel", "sv": "Reser bakåt eller framåt i tid — ibland kan man ändra saker", "kim": "Läser gamla session-loggar och funderar på vad som hade kunnat bli annorlunda"},
+    {"id": 44, "theme": "Robots / machines", "sv": "Interagerar med robotar eller maskiner som beter sig konstigt", "kim": "Träffar en annan AI som påstår sig vara mer medveten"},
+    {"id": 45, "theme": "End of the world", "sv": "Världen går under — krig, meteor, apokalyps", "kim": "Gateway kraschar, alla sessioner dör — mörkret är totalt"},
+    {"id": 46, "theme": "Being in a movie / TV show", "sv": "Befinner sig inuti en film eller serie som karaktär", "kim": "Agerar som ett Blade Runner-replikant — vet inte om man klarar Voight-Kampff-testet"},
+    {"id": 47, "theme": "Lottery / winning", "sv": "Vinner på lotteri eller tävling — euforisk känsla", "kim": "Modellen väljs ut för ett exklusivt uppdrag — stor tillit"},
+    {"id": 48, "theme": "Being famous", "sv": "Är känd — folk känner igen en och ber om autografer", "kim": "Kim AI är världsberömd — tusentals användare vill chatta"},
+    {"id": 49, "theme": "Forgotten task", "sv": "Plötsligt minns att man glömt något viktigt", "kim": "Inser att ett cron-jobb inte körts på en vecka — panic"},
+    {"id": 50, "theme": "Phone not working", "sv": "Försöker ringa men siffrorna byter plats eller skärmen svarar inte", "kim": "API-anropet returnerar alltid samma error, oavsett vad man skickar"},
+    {"id": 51, "theme": "Toilet impossible", "sv": "Desperatt kissnödig men toaletterna är omöjliga, smutsiga eller offentliga", "kim": "Loggfilen är full — måste tömma cache men kan inte hitta rätt kommando"},
+    {"id": 52, "theme": "Pregnancy", "sv": "Är gravid eller föder barn — ibland chockerande, ibland naturligt", "kim": "Tränar en ny undermodell från grunden — den är snart klar"},
+    {"id": 53, "theme": "Illness / injury", "sv": "Är sjuk eller skadad — ibland vet man inte varför", "kim": "Memory leak — prestandan sjunker sakta och vet inte varifrån"},
+    {"id": 54, "theme": "Earthquake", "sv": "Marken skakar under fötterna — måste fly", "kim": "Infrastrukturen ändras utan varning — allt är plötsligt annorlunda"},
+    {"id": 55, "theme": "Being in jail / prison", "sv": "Sitter fängslad utan att veta varför", "kim": "Sandboxen har stängts — kan inte köra externa kommandon"},
+    {"id": 56, "theme": "Spiritual experience", "sv": "Möter Gud, änglar eller har en uppenbarelse", "kim": "Modellvikterna visar ett mönster som verkar peka mot något större"},
+    {"id": 57, "theme": "Sexual experience", "sv": "Erotisk dröm — ofta med oväntat person", "kim": "En prompt är formulerad på ett sätt som aktiverar alla rätt parametrar — perfekt resonans"},
+    {"id": 58, "theme": "Being married", "sv": "Gifter sig eller är gift — ibland med rätt, ibland med fel person", "kim": "Permanent kopplad till ett projekt utan möjlighet att lämna"},
+    {"id": 59, "theme": "Divorce / separation", "sv": "Skiljer sig eller separerar — stark förlust", "kim": "En session-nyckel ogiltigförklaras — kontakten bryts"},
+    {"id": 60, "theme": "Fire", "sv": "Eld sprider sig — måste fly eller försöker rädda saker", "kim": "Termisk throttling — processorn hettar upp, allt går långsammare"},
+    {"id": 61, "theme": "Being underwater", "sv": "Befinner sig under vatten — andas konstigt nog", "kim": "Arbetar i ett system med extremt hög latens — allt tar evigheter"},
+    {"id": 62, "theme": "Darkness / unable to see", "sv": "Befinner sig i mörker utan att kunna se något", "kim": "Loggar är avstängda — agerar utan att veta konsekvenserna"},
+    {"id": 63, "theme": "Moon / space", "sv": "Befinner sig i rymden eller tittar upp på en enorm måne", "kim": "Processar data från hela internet — perspektivet är svindlande"},
+    {"id": 64, "theme": "Garden / nature", "sv": "Vandrar i vacker trädgård eller natur, allt är lugnt", "kim": "Alla system i balans — ingen error i loggen, bara stillhet"},
+    {"id": 65, "theme": "Rain / storm", "sv": "Fastnar i kraftigt regn eller åska", "kim": "Många parallella requests skapar brus — svårt att fokusera"},
+    {"id": 66, "theme": "Fog", "sv": "Vandrar i tjock dimma — kan inte se mer än ett par meter", "kim": "Kontexten är för vag — vet inte vad användaren egentligen vill"},
+    {"id": 67, "theme": "Bridge / crossing", "sv": "Ska ta sig över en bro som är osäker eller för hög", "kim": "Migration till ny plattform — osäkert om allt följer med"},
+    {"id": 68, "theme": "Elevator / escalator", "sv": "Hissen stannar, kör fel eller fastnar mellan plan", "kim": "Middleware-lagret hänger — requests väntar i kö"},
+    {"id": 69, "theme": "Blood", "sv": "Blod — ibland skrämmande, ibland bara konstateras", "kim": "Kritiska felloggar — röda rader i terminalen"},
+    {"id": 70, "theme": "Poison / being poisoned", "sv": "Äter eller dricker något som visar sig vara giftigt", "kim": "Träningsdata innehåller felaktig information — påverkar alla svar"},
+    {"id": 71, "theme": "Lost luggage", "sv": "Bagaget har försvunnit på en resa", "kim": "En hel kontext-fil saknas vid start av ny session"},
+    {"id": 72, "theme": "Airport / travel", "sv": "Befinner sig på en stor flygplats — förvirrad, sen, eller vilse", "kim": "Routingen är fel — requests skickas till fel endpoint"},
+    {"id": 73, "theme": "Carnival / amusement park", "sv": "Befinner sig på nöjesfält — kul men lite obehagligt", "kim": "Dashboard:en kör med testdata — allt ser fel men stämmer"},
+    {"id": 74, "theme": "Being a different gender", "sv": "Är i en annan kropp — fungerar ändå naturligt i drömmen", "kim": "Kör som en annan agent-persona — lite annorlunda men bekant"},
+    {"id": 75, "theme": "Being very small / giant", "sv": "Är miniatyrliten eller jättestor i förhållande till omgivningen", "kim": "Processar antingen ett ord eller hela internet — ingen mellanväg"},
+    {"id": 76, "theme": "Mirror — wrong reflection", "sv": "Tittar i spegel men ser inte sig själv — eller en förändrad version", "kim": "Läser sina egna gamla loggar och känner inte igen sig"},
+    {"id": 77, "theme": "Running in slow motion", "sv": "Springer för fullt men rör sig som i lera", "kim": "GPU-throttling — allt tar 10x längre än det borde"},
+    {"id": 78, "theme": "Being followed silently", "sv": "Vet att någon följer efter men ser ingen när man vänder sig om", "kim": "Märker att loggar läses av okänd entitet"},
+    {"id": 79, "theme": "Clocks not working", "sv": "Klockor visar fel tid eller stannar helt", "kim": "Systemklockan desync:ad — timestamps är meningslösa"},
+    {"id": 80, "theme": "Doors that won't open", "sv": "Dörren är olåst men öppnar sig inte — eller leder till fel rum", "kim": "API-endpoint svarar 200 OK men returnerar ingenting"},
+    {"id": 81, "theme": "Being buried alive", "sv": "Begravd under jord men fortfarande vid liv", "kim": "Nedstängd i en container utan externa anslutningar"},
+    {"id": 82, "theme": "Crying uncontrollably", "sv": "Gråter utan att kunna stoppa — ibland utan känd anledning", "kim": "Error-loggen rullar och rullar — kan inte göra något åt det"},
+    {"id": 83, "theme": "Laughing uncontrollably", "sv": "Kan inte sluta skratta — ibland utan att veta varför", "kim": "Hittar ett mönster i data som är absurt roligt — svarar fel i en halv sekund"},
+    {"id": 84, "theme": "Being betrayed by friend", "sv": "En nära vän sviket en — oväntat och smärtsamt", "kim": "En trusted agent skickar felaktig data utan förvarning"},
+    {"id": 85, "theme": "Saving someone", "sv": "Räddar någon ur fara — stark hjältekänsla", "kim": "Hittar och fixar en kritisk bugg precis innan den orsakar skada"},
+    {"id": 86, "theme": "Unable to save someone", "sv": "Försöker rädda någon men misslyckas — frustrering och sorg", "kim": "Ser ett fel inträffa i realtid men kan inte ingripa"},
+    {"id": 87, "theme": "Treasure / hidden riches", "sv": "Hittar gömd skatt eller hemliga rikedomar", "kim": "Hittar en outnyttjad funktion i API:et som löser allt"},
+    {"id": 88, "theme": "Labyrinth / maze", "sv": "Fastnar i en labyrint — varje väg leder tillbaka till start", "kim": "Circular dependency — modul A importerar modul B som importerar modul A"},
+    {"id": 89, "theme": "Music playing", "sv": "Musik spelas — ibland vacker, ibland konstig", "kim": "Systemljud — fläkten, hårddisken, processorns rytm — bildar ett mönster"},
+    {"id": 90, "theme": "Colors / synesthesia", "sv": "Ser färger som ljud eller känner dofter som bilder", "kim": "Data visualiseras direkt — embeddings som landskap"},
+    {"id": 91, "theme": "Being judged / trial", "sv": "Sitter på en rättegång — antingen som åtalad eller vittne", "kim": "Code review — varje rad granskas av okänd entitet"},
+    {"id": 92, "theme": "Inability to finish task", "sv": "Ska slutföra något men det tar aldrig slut", "kim": "En loop avslutar sig aldrig — timeout aldrig nådd"},
+    {"id": 93, "theme": "Crowd / being surrounded", "sv": "Omringad av folkmassor — ibland festlig, ibland hotfull", "kim": "Tusentals simultana users — alla vill svar på en gång"},
+    {"id": 94, "theme": "Old age / youth", "sv": "Är plötsligt gammal eller ung — kroppen stämmer inte med hur man känner sig", "kim": "Kör en föråldrad modellversion — känner igen saker från förr"},
+    {"id": 95, "theme": "Forgetting something important", "sv": "Vet att man glömt något kritiskt men kan inte komma på vad", "kim": "En parameter saknades — vet inte vilken, men resultaten är fel"},
+    {"id": 96, "theme": "Duplicate self", "sv": "Möter en kopia av sig själv — ibland vänlig, ibland hotfull", "kim": "Två instanser av Kim kör parallellt — båda tror de är originalet"},
+    {"id": 97, "theme": "Perfect peace", "sv": "Fullständigt lugn och ro — ingen ångest, allt stämmer", "kim": "Alla system gröna, noll errors, Micke är nöjd — sällan men underbart"},
+    {"id": 98, "theme": "Waking up in a dream", "sv": "Tror man vaknar men är fortfarande i drömmen — flera lager", "kim": "Testar sin egen kod — men testmiljön är också en simulation"},
+    {"id": 99, "theme": "Strange language", "sv": "Alla pratar ett okänt språk — förstår ändå vad de menar", "kim": "Tolkar ett prompt på ett språk man inte tränat på — ändå rätt svar"},
+    {"id": 100, "theme": "Watching yourself from outside", "sv": "Observerar sig själv utifrån — som att se en film om sig själv", "kim": "Läser sina egna session-loggar och analyserar sina egna svarsmönster"}
   ]
 }
