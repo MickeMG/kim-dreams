@@ -358,7 +358,7 @@ function renderCard(dream) {
     ? `<span class="card-lucid">${t('lucid')}</span>` : '';
 
   return `
-    <div class="card" onclick="openModal('${id}')" style="cursor:pointer" title="Klicka för att läsa">
+    <div class="card">
       ${imageHtml}
       <div class="card-body">
         <div class="card-meta">
@@ -367,6 +367,8 @@ function renderCard(dream) {
           ${lucidBadge}
         </div>
         <h2>${dream.mood} ${title}</h2>
+        <div class="dream-text">${text.split('\n\n').map(p => `<p>${p.replace(/\n/g,'<br>')}</p>`).join('')}</div>
+        <div class="card-footer">${interp}</div>
       </div>
     </div>`;
 }
@@ -392,7 +394,7 @@ function renderAll() {
   const sorted = [...allDreams].sort((a, b) => b.date.localeCompare(a.date));
   const count = allDreams.length;
   document.getElementById('dream-count').textContent = t('dreamCount')(count);
-  const perPage = 6;
+  const perPage = 4;
   const totalPages = Math.ceil(sorted.length / perPage);
   currentPage = Math.min(currentPage, totalPages - 1);
   const pageDreams = sorted.slice(currentPage * perPage, (currentPage + 1) * perPage);
@@ -436,42 +438,7 @@ renderAll(); // set UI strings before load
 loadDreams();
 </script>
 
-  <!-- Modal -->
-  <div id="modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:1000;overflow-y:auto;padding:2rem 1rem" onclick="if(event.target===this)closeModal()">
-    <div style="max-width:700px;margin:0 auto;background:#0f172a;border:1px solid #1e3a5f;border-radius:16px;overflow:hidden">
-      <div id="modal-img-wrap"></div>
-      <div style="padding:1.5rem 2rem 2rem">
-        <div id="modal-meta" style="font-size:0.8rem;color:#64748b;margin-bottom:0.5rem"></div>
-        <h2 id="modal-title" style="font-size:1.4rem;color:#e2e8f0;margin:0 0 1rem"></h2>
-        <div id="modal-text" style="font-size:0.95rem;line-height:1.8;color:#94a3b8"></div>
-        <div id="modal-interp" style="margin-top:1.2rem;padding-top:1rem;border-top:1px solid #1e3a5f;font-size:0.85rem;color:#64748b;font-style:italic"></div>
-        <button onclick="closeModal()" style="margin-top:1.5rem;padding:0.5rem 1.5rem;background:#1e3a5f;color:#a0c4ff;border:none;border-radius:20px;cursor:pointer;font-size:0.9rem">✕ Stäng</button>
-      </div>
-    </div>
-  </div>
-<script>
-function openModal(id) {
-  const dream = allDreams.find(d => d.date.replace(/-/g,'') === id);
-  if (!dream) return;
-  const title = pick(dream.title, currentLang) || dream.title || '—';
-  const text  = pick(dream.text,  currentLang) || dream.text  || '';
-  const interp = pick(dream.interpretation, currentLang) || dream.interpretation || '';
-  const type  = pick(dream.type,  currentLang) || dream.type  || '';
-  document.getElementById('modal-img-wrap').innerHTML = dream.image
-    ? `<img src="${dream.image}" style="width:100%;max-height:320px;object-fit:cover">`
-    : '';
-  document.getElementById('modal-meta').innerHTML = `${formatDate(dream.date)} &nbsp;·&nbsp; ${type}${dream.lucid ? ' &nbsp;·&nbsp; ✨ Lucid' : ''}`;
-  document.getElementById('modal-title').textContent = dream.mood + ' ' + title;
-  document.getElementById('modal-text').innerHTML = text.split('\n\n').map(p => `<p style="margin:0 0 0.8rem">${p.replace(/\n/g,'<br>')}</p>`).join('');
-  document.getElementById('modal-interp').textContent = interp;
-  document.getElementById('modal').style.display = 'block';
-  document.body.style.overflow = 'hidden';
-}
-function closeModal() {
-  document.getElementById('modal').style.display = 'none';
-  document.body.style.overflow = '';
-}
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
-</script>
+  
+
 </body>
 </html>
