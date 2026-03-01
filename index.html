@@ -409,6 +409,7 @@ function renderAll() {
   btns += `<span class="page-info">${currentPage+1} / ${totalPages}</span>`;
   if (currentPage < totalPages-1) btns += `<button class="page-btn" onclick="goPage(${currentPage+1})">Äldre →</button>`;
   pc.innerHTML = btns;
+  const pb = document.getElementById('pagination-bottom'); if(pb) pb.innerHTML = btns;
 }
 
 // ── Language switcher ────────────────────────────────────────────────────────
