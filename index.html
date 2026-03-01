@@ -439,9 +439,9 @@ function renderAll() {
   const pc = document.getElementById('pagination');
   if (totalPages <= 1) { pc.innerHTML = ''; return; }
   let btns = '';
-  if (currentPage > 0) btns += `<button class="page-btn" onclick="goPage(${currentPage-1})">← Nyare</button>`;
+  if (currentPage > 0) btns += `<button class="page-btn" onclick="goPage(${currentPage-1})">←</button>`;
   btns += `<span class="page-info">${currentPage+1} / ${totalPages}</span>`;
-  if (currentPage < totalPages-1) btns += `<button class="page-btn" onclick="goPage(${currentPage+1})">Äldre →</button>`;
+  if (currentPage < totalPages-1) btns += `<button class="page-btn" onclick="goPage(${currentPage+1})">→</button>`;
   pc.innerHTML = btns;
   const pb = document.getElementById('pagination-bottom'); if(pb) pb.innerHTML = btns;
 }
