@@ -342,11 +342,12 @@ function formatDate(d) {
 // ── Card rendering ───────────────────────────────────────────────────────────
 let allDreams = [];
 
-function renderCard(dream) {
+function renderCard(dream, expanded) {
   const title = pick(dream.title, currentLang) || dream.title || '—';
   const type  = pick(dream.type,  currentLang) || dream.type  || '';
   const text  = pick(dream.text,  currentLang) || dream.text  || '';
   const interp = pick(dream.interpretation, currentLang) || dream.interpretation || '';
+  const id = dream.date.replace(/-/g,'');
 
   const imageHtml = dream.image
     ? `<img class="card-image" src="${dream.image}" alt="${title}" loading="lazy">`
@@ -355,8 +356,16 @@ function renderCard(dream) {
   const lucidBadge = dream.lucid
     ? `<span class="card-lucid">${t('lucid')}</span>` : '';
 
-  return `
-    <div class="card">
+  const bodyHtml = `
+        <div class="dream-text">${text.split('\n\n').map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`).join('')}</div>
+        <div class="card-footer">
+          ${interp}
+          ${dream.sleep_phase ? `<br><span class="card-sleep">🕒 ${dream.sleep_phase}</span>` : ''}
+        </div>`;
+
+  if (expanded) {
+    return `
+    <div class="card" id="card-${id}">
       ${imageHtml}
       <div class="card-body">
         <div class="card-meta">
@@ -365,13 +374,35 @@ function renderCard(dream) {
           ${lucidBadge}
         </div>
         <h2>${dream.mood} ${title}</h2>
-        <div class="dream-text">${text.split('\n\n').map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`).join('')}</div>
-        <div class="card-footer">
-          ${interp}
-          ${dream.sleep_phase ? `<br><span class="card-sleep">🕒 ${dream.sleep_phase}</span>` : ''}
+        ${bodyHtml}
+      </div>
+    </div>`;
+  } else {
+    return `
+    <div class="card card-collapsed" id="card-${id}">
+      ${imageHtml}
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="card-date">${formatDate(dream.date)}</span>
+          <span class="card-type">${type}</span>
+          ${lucidBadge}
+        </div>
+        <h2>${dream.mood} ${title}</h2>
+        <button class="read-btn" onclick="expandCard('${id}')">🌙 Läs drömmen</button>
+        <div class="dream-body" id="body-${id}" style="display:none">
+          ${bodyHtml}
         </div>
       </div>
     </div>`;
+  }
+}
+
+function expandCard(id) {
+  const body = document.getElementById('body-' + id);
+  const btn = document.querySelector('#card-' + id + ' .read-btn');
+  body.style.display = 'block';
+  if (btn) btn.style.display = 'none';
+  document.getElementById('card-' + id).classList.remove('card-collapsed');
 }
 
 function renderAll() {
@@ -391,7 +422,7 @@ function renderAll() {
   const sorted = [...allDreams].sort((a, b) => b.date.localeCompare(a.date));
   const count = allDreams.length;
   document.getElementById('dream-count').textContent = t('dreamCount')(count);
-  document.getElementById('grid').innerHTML = sorted.map(renderCard).join('');
+  document.getElementById('grid').innerHTML = sorted.map((d, i) => renderCard(d, i < 2)).join('');
 }
 
 // ── Language switcher ────────────────────────────────────────────────────────
