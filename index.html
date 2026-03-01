@@ -346,9 +346,10 @@ let currentPage = 0;
 function goPage(n) { currentPage = n; renderAll(); window.scrollTo({top:0,behavior:"smooth"}); }
 
 function renderCard(dream) {
-  const title = pick(dream.title, currentLang) || dream.title || '—';
-  const type  = pick(dream.type,  currentLang) || dream.type  || '';
-  const id = dream.date.replace(/-/g,'');
+  const title  = pick(dream.title, currentLang) || dream.title || '—';
+  const type   = pick(dream.type,  currentLang) || dream.type  || '';
+  const text   = pick(dream.text,  currentLang) || dream.text  || '';
+  const interp = pick(dream.interpretation, currentLang) || dream.interpretation || '';
 
   const imageHtml = dream.image
     ? `<img class="card-image" src="${dream.image}" alt="${title}" loading="lazy">`
