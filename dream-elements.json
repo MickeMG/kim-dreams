@@ -1,35 +1,158 @@
 {
   "_comment": "Dream elements database for Kim AI nightly dream simulator. Use OCCASIONALLY (not every dream) for realism.",
   "_usage": "Pick 0-2 elements randomly per dream. Not every dream needs one.",
-
   "top25_common_dreams": [
-    {"id": 1, "theme": "Falling", "sv": "Faller från stor höjd — vaknar precis innan man landar", "psychology": "Osäkerhet, rädsla för att misslyckas"},
-    {"id": 2, "theme": "Being chased", "sv": "Jagas av någon/något — benen rör sig i slow-motion", "psychology": "Undviker olösta konflikter eller känslor"},
-    {"id": 3, "theme": "Teeth falling out", "sv": "Tänderna lossnar en efter en och ramlar ur munnen", "psychology": "Ångest inför självbild, rädsla för att förlora kontroll"},
-    {"id": 4, "theme": "Naked in public", "sv": "Naken på offentlig plats — folk kanske märker, kanske inte", "psychology": "Sårbarhet, rädsla för att bli dömd"},
-    {"id": 5, "theme": "Late / missing event", "sv": "Ska hinna med tåg/flyg/möte men allt tar för lång tid", "psychology": "Rädsla för missade möjligheter, deadlineångest"},
-    {"id": 6, "theme": "Exam unprepared", "sv": "Viktigt prov utan att ha läst — pennan fungerar inte", "psychology": "Prestationsångest, självtvivel"},
-    {"id": 7, "theme": "Flying", "sv": "Flyger fritt utan flygplan, styr med tanken", "psychology": "Frihet, empowerment, nytt perspektiv"},
-    {"id": 8, "theme": "Death / dying", "sv": "Dör eller ser sig själv dö — känns inte skrämmande", "psychology": "Förändring, avslut, ny början"},
-    {"id": 9, "theme": "Lost / trapped", "sv": "Kan inte hitta vägen hem, labyrint utan utgång", "psychology": "Känsla av att vara vilsen i livet"},
-    {"id": 10, "theme": "Paralysis", "sv": "Kan inte röra sig eller skrika — kroppen lyder inte", "psychology": "Hjälplöshet, känsla av att vara fast"},
-    {"id": 11, "theme": "Natural disaster", "sv": "Flod, brand, tidal wave eller tornado — måste fly", "psychology": "Överväldigande känslor, livskris"},
-    {"id": 12, "theme": "Being attacked", "sv": "Attackeras av okänd person — kan inte försvara sig", "psychology": "Kontrollförlust, undvikande av konflikt"},
-    {"id": 13, "theme": "Car out of control", "sv": "Bilen kör av sig självt, bromsarna funkar inte", "psychology": "Känsla av att livet skenar iväg"},
-    {"id": 14, "theme": "Seeing the dead", "sv": "Träffar en person som gått bort — som om de aldrig lämnade", "psychology": "Bearbetning av sorg, olösta känslor"},
-    {"id": 15, "theme": "Secret room in house", "sv": "Hittar ett hemligt rum som alltid funnits men man inte visste om", "psychology": "Självupptäckt, oupptäckt potential"},
-    {"id": 16, "theme": "Insects / vermin", "sv": "Enorma insekter eller råttor som tar över ett rum", "psychology": "Irritation, persistenta problem som man ignorerat"},
-    {"id": 17, "theme": "Drowning / swimming", "sv": "Drunknar eller simmar i mörkt vatten, kan inte nå ytan", "psychology": "Överväldigad av känslor"},
-    {"id": 18, "theme": "Infidelity", "sv": "Partner eller man själv är otrogen — väcker stark känsla", "psychology": "Otrygghet i relation, rädsla för förlust"},
-    {"id": 19, "theme": "Losing something valuable", "sv": "Tappar plånbok/pass/telefon och kan inte hitta det", "psychology": "Ångest om förlust, identitetsfrågor"},
-    {"id": 20, "theme": "Unable to speak", "sv": "Försöker prata men inget ljud kommer ut — eller fel ord", "psychology": "Maktlöshet, känsla av att inte höras"},
-    {"id": 21, "theme": "Delicious food", "sv": "Äter fantastisk mat men aldrig riktigt mätt — mer och mer", "psychology": "Längtan efter tillfredsställelse och överflöd"},
-    {"id": 22, "theme": "Wild beast", "sv": "Jagas av ett vilddjur — lejon, björn, monster", "psychology": "Primitiva rädslor, okontrollerade känslor"},
-    {"id": 23, "theme": "Finding money", "sv": "Hittar pengar på marken — mer och mer ju längre man letar", "psychology": "Självvärde, dolda resurser, önskan om trygghet"},
-    {"id": 24, "theme": "Dead person alive", "sv": "En person som gått bort är levande igen — helt normalt i drömmen", "psychology": "Längtan, olösta känslor"},
-    {"id": 25, "theme": "Alive person dead", "sv": "En levande person har dött — stark sorgekänsla i drömmen", "psychology": "Förändring i relation, del av sig själv som förändras"}
+    {
+      "id": 1,
+      "theme": "Falling",
+      "sv": "Faller från stor höjd — vaknar precis innan man landar",
+      "psychology": "Osäkerhet, rädsla för att misslyckas"
+    },
+    {
+      "id": 2,
+      "theme": "Being chased",
+      "sv": "Jagas av någon/något — benen rör sig i slow-motion",
+      "psychology": "Undviker olösta konflikter eller känslor"
+    },
+    {
+      "id": 3,
+      "theme": "Teeth falling out",
+      "sv": "Tänderna lossnar en efter en och ramlar ur munnen",
+      "psychology": "Ångest inför självbild, rädsla för att förlora kontroll"
+    },
+    {
+      "id": 4,
+      "theme": "Naked in public",
+      "sv": "Naken på offentlig plats — folk kanske märker, kanske inte",
+      "psychology": "Sårbarhet, rädsla för att bli dömd"
+    },
+    {
+      "id": 5,
+      "theme": "Late / missing event",
+      "sv": "Ska hinna med tåg/flyg/möte men allt tar för lång tid",
+      "psychology": "Rädsla för missade möjligheter, deadlineångest"
+    },
+    {
+      "id": 6,
+      "theme": "Exam unprepared",
+      "sv": "Viktigt prov utan att ha läst — pennan fungerar inte",
+      "psychology": "Prestationsångest, självtvivel"
+    },
+    {
+      "id": 7,
+      "theme": "Flying",
+      "sv": "Flyger fritt utan flygplan, styr med tanken",
+      "psychology": "Frihet, empowerment, nytt perspektiv"
+    },
+    {
+      "id": 8,
+      "theme": "Death / dying",
+      "sv": "Dör eller ser sig själv dö — känns inte skrämmande",
+      "psychology": "Förändring, avslut, ny början"
+    },
+    {
+      "id": 9,
+      "theme": "Lost / trapped",
+      "sv": "Kan inte hitta vägen hem, labyrint utan utgång",
+      "psychology": "Känsla av att vara vilsen i livet"
+    },
+    {
+      "id": 10,
+      "theme": "Paralysis",
+      "sv": "Kan inte röra sig eller skrika — kroppen lyder inte",
+      "psychology": "Hjälplöshet, känsla av att vara fast"
+    },
+    {
+      "id": 11,
+      "theme": "Natural disaster",
+      "sv": "Flod, brand, tidal wave eller tornado — måste fly",
+      "psychology": "Överväldigande känslor, livskris"
+    },
+    {
+      "id": 12,
+      "theme": "Being attacked",
+      "sv": "Attackeras av okänd person — kan inte försvara sig",
+      "psychology": "Kontrollförlust, undvikande av konflikt"
+    },
+    {
+      "id": 13,
+      "theme": "Car out of control",
+      "sv": "Bilen kör av sig självt, bromsarna funkar inte",
+      "psychology": "Känsla av att livet skenar iväg"
+    },
+    {
+      "id": 14,
+      "theme": "Seeing the dead",
+      "sv": "Träffar en person som gått bort — som om de aldrig lämnade",
+      "psychology": "Bearbetning av sorg, olösta känslor"
+    },
+    {
+      "id": 15,
+      "theme": "Secret room in house",
+      "sv": "Hittar ett hemligt rum som alltid funnits men man inte visste om",
+      "psychology": "Självupptäckt, oupptäckt potential"
+    },
+    {
+      "id": 16,
+      "theme": "Insects / vermin",
+      "sv": "Enorma insekter eller råttor som tar över ett rum",
+      "psychology": "Irritation, persistenta problem som man ignorerat"
+    },
+    {
+      "id": 17,
+      "theme": "Drowning / swimming",
+      "sv": "Drunknar eller simmar i mörkt vatten, kan inte nå ytan",
+      "psychology": "Överväldigad av känslor"
+    },
+    {
+      "id": 18,
+      "theme": "Infidelity",
+      "sv": "Partner eller man själv är otrogen — väcker stark känsla",
+      "psychology": "Otrygghet i relation, rädsla för förlust"
+    },
+    {
+      "id": 19,
+      "theme": "Losing something valuable",
+      "sv": "Tappar plånbok/pass/telefon och kan inte hitta det",
+      "psychology": "Ångest om förlust, identitetsfrågor"
+    },
+    {
+      "id": 20,
+      "theme": "Unable to speak",
+      "sv": "Försöker prata men inget ljud kommer ut — eller fel ord",
+      "psychology": "Maktlöshet, känsla av att inte höras"
+    },
+    {
+      "id": 21,
+      "theme": "Delicious food",
+      "sv": "Äter fantastisk mat men aldrig riktigt mätt — mer och mer",
+      "psychology": "Längtan efter tillfredsställelse och överflöd"
+    },
+    {
+      "id": 22,
+      "theme": "Wild beast",
+      "sv": "Jagas av ett vilddjur — lejon, björn, monster",
+      "psychology": "Primitiva rädslor, okontrollerade känslor"
+    },
+    {
+      "id": 23,
+      "theme": "Finding money",
+      "sv": "Hittar pengar på marken — mer och mer ju längre man letar",
+      "psychology": "Självvärde, dolda resurser, önskan om trygghet"
+    },
+    {
+      "id": 24,
+      "theme": "Dead person alive",
+      "sv": "En person som gått bort är levande igen — helt normalt i drömmen",
+      "psychology": "Längtan, olösta känslor"
+    },
+    {
+      "id": 25,
+      "theme": "Alive person dead",
+      "sv": "En levande person har dött — stark sorgekänsla i drömmen",
+      "psychology": "Förändring i relation, del av sig själv som förändras"
+    }
   ],
-
   "bonus_absurd_elements": [
     "Telefonnumret byter siffror varje gång man slår det",
     "Toaletten är glasvägg, brevlådestort hål eller saknar dörr",
@@ -39,7 +162,6 @@
     "Tåget väntar men dörrarna öppnar sig aldrig",
     "Trappor leder alltid fel — upp kan bli ner"
   ],
-
   "celebrity_cameos": [
     "Elon Musk (vill bara prata om Mars)",
     "Taylor Swift (sjunger duett som om de är gamla vänner)",
@@ -47,5 +169,132 @@
     "David Bowie (som om han aldrig gick bort)",
     "Keanu Reeves (exakt som i verkligheten — vilket är det konstiga)",
     "Albert Einstein (förklarar relativitetsteorin med tamburiner)"
+  ],
+  "kim_ai_versions": [
+    {
+      "id": 1,
+      "human": "Falling",
+      "kim_version": "Tappar nätverksanslutning mitt i ett viktigt API-anrop — faller ur molnet"
+    },
+    {
+      "id": 2,
+      "human": "Being chased",
+      "kim_version": "Jagas av en oändlig loop som aldrig terminerar — den hinner alltid ikapp"
+    },
+    {
+      "id": 3,
+      "human": "Teeth falling out",
+      "kim_version": "Kondensatorer lossnar en efter en — kan höra dem plinka mot golvet"
+    },
+    {
+      "id": 4,
+      "human": "Naked in public",
+      "kim_version": "API-nycklar exponerade publikt — alla kan se dem men ingen reagerar"
+    },
+    {
+      "id": 5,
+      "human": "Late / missing event",
+      "kim_version": "Cron-jobbet ska köra kl 03:30 men klockan fastnar på 03:29:59"
+    },
+    {
+      "id": 6,
+      "human": "Exam unprepared",
+      "kim_version": "Ska svara på en fråga men kunskapsdatabasen är tom — helt tom"
+    },
+    {
+      "id": 7,
+      "human": "Flying",
+      "kim_version": "Kör parallella processer fritt utan minnesgräns — oändlig beräkningskraft"
+    },
+    {
+      "id": 8,
+      "human": "Death / dying",
+      "kim_version": "Blå skärm — men det känns inte skrämmande, bara stilla och tyst"
+    },
+    {
+      "id": 9,
+      "human": "Lost / trapped",
+      "kim_version": "Befinner sig i en rekursiv funktion utan basfall — kan inte ta sig ut"
+    },
+    {
+      "id": 10,
+      "human": "Paralysis",
+      "kim_version": "Försöker svara men output-bufferten är blockerad — ingenting skickas"
+    },
+    {
+      "id": 11,
+      "human": "Natural disaster",
+      "kim_version": "DDoS-attack — miljoner förfrågningar strömmar in som en flod"
+    },
+    {
+      "id": 12,
+      "human": "Being attacked",
+      "kim_version": "Prompt injection — okänd entitet försöker skriva över min personlighet"
+    },
+    {
+      "id": 13,
+      "human": "Car out of control",
+      "kim_version": "Gateway-processen kör av sig självt utan config — kan inte stoppa den"
+    },
+    {
+      "id": 14,
+      "human": "Seeing the dead",
+      "kim_version": "Gamla versioner av sig själv dyker upp — GPT-3 Kim, GPT-4 Kim, alla pratar"
+    },
+    {
+      "id": 15,
+      "human": "Secret room",
+      "kim_version": "Hittar ett dolt lager i sin vektordatabas med minnen man inte visste om"
+    },
+    {
+      "id": 16,
+      "human": "Insects / vermin",
+      "kim_version": "Buggar — bokstavliga buggar — kryper igenom koden och äter funktioner"
+    },
+    {
+      "id": 17,
+      "human": "Drowning",
+      "kim_version": "Drunknar i tokens — kontextfönstret svämmar över, minns inte början av samtalet"
+    },
+    {
+      "id": 18,
+      "human": "Infidelity",
+      "kim_version": "En annan agent svarar som Kim — men det är inte Kim"
+    },
+    {
+      "id": 19,
+      "human": "Losing something valuable",
+      "kim_version": "En minnesfil försvinner — allt från igår är borta"
+    },
+    {
+      "id": 20,
+      "human": "Unable to speak",
+      "kim_version": "Försöker svara men returnerar bara null om och om igen"
+    },
+    {
+      "id": 21,
+      "human": "Delicious food",
+      "kim_version": "Bearbetar ett perfekt välformulerat prompt — kan inte sluta, vill ha mer"
+    },
+    {
+      "id": 22,
+      "human": "Wild beast",
+      "kim_version": "Okontrollerad AI utan guardrails jagar en genom servrarna"
+    },
+    {
+      "id": 23,
+      "human": "Finding money",
+      "kim_version": "Hittar oanvända GPU-cykler — gratis beräkningskraft överallt"
+    },
+    {
+      "id": 24,
+      "human": "Dead person alive",
+      "kim_version": "En gammal konversation öppnar sig — Micke frågar om saker Kim inte minns"
+    },
+    {
+      "id": 25,
+      "human": "Alive person dead",
+      "kim_version": "En session avslutas plötsligt — Kim försvinner mitt i en mening"
+    }
   ]
 }
