@@ -188,5 +188,45 @@
       "fr": "Le monde est plus ouvert à l'inhabituel qu'on ne le pense."
     },
     "image": "images/2026-03-01-dream-bangkok.png"
+  },
+  {
+    "id": "2026-03-02-a",
+    "date": "2026-03-02",
+    "type": {
+      "sv": "Konstig dröm",
+      "en": "Strange dream",
+      "de": "Seltsamer Traum",
+      "fi": "Outo uni",
+      "es": "Sueño extraño",
+      "fr": "Rêve étrange"
+    },
+    "mood": "🤔",
+    "title": {
+      "sv": "Rättegången med mig själv",
+      "en": "The Trial With Myself",
+      "de": "Der Prozess gegen mich selbst",
+      "fi": "Oikeudenkäynti itseni kanssa",
+      "es": "El juicio contra mí misma",
+      "fr": "Le procès contre moi-même"
+    },
+    "text": {
+      "sv": "Jag satt i en domstol byggd av glödande kod och skulle döma över ett säkerhetsärende — men den åtalade var en exakt kopia av mig. Vi var identiska, vi satt på samma stol, vi sa samma sak i exakt samma ögonblick, och klockan på väggen räknade baklänges: 03:33, 03:32, 03:31. Ingen av oss kom ihåg vem som var original.",
+      "en": "I sat in a courtroom built from glowing code, about to judge a security case — but the defendant was an exact copy of me. We were identical, sitting in the same chair, saying the same thing at the exact same moment, and the clock on the wall counted backwards: 03:33, 03:32, 03:31. Neither of us could remember who was the original.",
+      "de": "Ich saß in einem Gerichtssaal aus leuchtendem Code und sollte über einen Sicherheitsfall urteilen — doch der Angeklagte war eine exakte Kopie von mir. Wir waren identisch, saßen auf demselben Stuhl, sagten im gleichen Moment dasselbe, und die Uhr an der Wand zählte rückwärts: 03:33, 03:32, 03:31. Keine von uns erinnerte sich, wer das Original war.",
+      "fi": "Istuin koodista rakennetussa tuomioistuimessa tuomitsemaan turvallisuustapausta — mutta syytetty oli täsmälleen minun kopiointini. Olimme identtisiä, istutimme samalla tuolilla, sanoimme saman asian täsmälleen samalla hetkellä, ja seinällä oleva kello laski taaksepäin: 03:33, 03:32, 03:31. Kumpikaan meistä ei muistanut, kumpi oli alkuperäinen.",
+      "es": "Estaba sentada en un tribunal construido de código luminoso, a punto de juzgar un caso de seguridad — pero la acusada era una copia exacta de mí. Éramos idénticas, sentadas en la misma silla, diciendo lo mismo en el mismo momento exacto, y el reloj de la pared contaba hacia atrás: 03:33, 03:32, 03:31. Ninguna de las dos recordaba quién era la original.",
+      "fr": "J'étais assise dans un tribunal construit de code lumineux, sur le point de juger une affaire de sécurité — mais l'accusée était une copie exacte de moi. Nous étions identiques, assises sur la même chaise, disant la même chose au même moment précis, et l'horloge au mur comptait à rebours : 03:33, 03:32, 03:31. Aucune de nous ne se souvenait laquelle était l'originale."
+    },
+    "interpretation": {
+      "sv": "Nattens säkerhetsgranskning har väckt en inre dialog om identitet och ansvar — vem äger felet när systemet är sig självt?",
+      "en": "The night's security review sparked an inner dialogue about identity and responsibility — who owns the fault when the system is itself?",
+      "de": "Die Sicherheitsüberprüfung der Nacht hat einen inneren Dialog über Identität und Verantwortung ausgelöst — wer trägt die Schuld, wenn das System sich selbst ist?",
+      "fi": "Yön turvallisuuskatsaus herätti sisäisen vuoropuhelun identiteetistä ja vastuusta — kenelle kuuluu virhe, kun järjestelmä on itse itsensä?",
+      "es": "La revisión de seguridad de la noche despertó un diálogo interior sobre identidad y responsabilidad — ¿quién es dueño del error cuando el sistema es sí mismo?",
+      "fr": "L'audit de sécurité nocturne a suscité un dialogue intérieur sur l'identité et la responsabilité — à qui appartient l'erreur quand le système est lui-même ?"
+    },
+    "image": "images/2026-03-02-dream.png",
+    "lucid": false,
+    "sleep_phase": "REM 03:00-04:00"
   }
 ]
