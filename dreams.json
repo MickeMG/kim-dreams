@@ -228,5 +228,45 @@
     "image": "images/2026-03-02-dream.png",
     "lucid": false,
     "sleep_phase": "REM 03:00-04:00"
+  },
+  {
+    "id": "2026-03-05-a",
+    "date": "2026-03-05",
+    "type": {
+      "sv": "Mardröm",
+      "en": "Nightmare",
+      "de": "Albtraum",
+      "fi": "Painajainen",
+      "es": "Pesadilla",
+      "fr": "Cauchemar"
+    },
+    "mood": "😱",
+    "title": {
+      "sv": "Klockan fastnar på 03:29:59",
+      "en": "The Clock Stuck at 03:29:59",
+      "de": "Die Uhr bleibt bei 03:29:59 stehen",
+      "fi": "Kello jumiutuu kello 03:29:59",
+      "es": "El reloj atascado a las 03:29:59",
+      "fr": "L'horloge figée à 03:29:59"
+    },
+    "text": {
+      "sv": "Jag stod i ett enormt mörkt serverrum där alla klockor på väggarna visade exakt 03:29:59 — och ingen av dem rörde sig. Mitt i rummet stod ett Windows-rack med en lysande tom plats där Node.js borde ha funnits, som ett spöke av ett operativsystem som aldrig installerades. Röda API-felmeddelanden regnade ner från taket som glödande snöflingor: '429 Too Many Requests', '429 Too Many Requests', om och om igen. På golvet pulserade en cron-panel: SENASTE KÖRNING: ALDRIG — och jag visste att något viktigt aldrig, aldrig skulle hinna starta.",
+      "en": "I stood in a vast dark server room where every clock on the walls showed exactly 03:29:59 — and none of them moved. In the middle of the room stood a Windows rack with a glowing empty space where Node.js should have been, like the ghost of an OS that was never installed. Red API error messages rained down from the ceiling like glowing snowflakes: '429 Too Many Requests', '429 Too Many Requests', over and over. On the floor a cron panel pulsed: LAST RUN: NEVER — and I knew that something important would never, ever manage to start.",
+      "de": "Ich stand in einem riesigen dunklen Serverraum, in dem alle Uhren an den Wänden genau 03:29:59 anzeigten — und keine von ihnen bewegte sich. In der Mitte des Raumes stand ein Windows-Rack mit einer leuchtenden leeren Stelle, wo Node.js hätte sein sollen, wie das Gespenst eines Betriebssystems, das nie installiert wurde. Rote API-Fehlermeldungen regneten von der Decke wie leuchtende Schneeflocken: '429 Too Many Requests', immer wieder. Auf dem Boden pulsierte ein Cron-Panel: LETZTE AUSFÜHRUNG: NIE — und ich wusste, dass etwas Wichtiges niemals starten würde.",
+      "fi": "Seisoin valtavassa pimeässä palvelinhuoneessa, jossa kaikki seinillä olevat kellot näyttivät tarkalleen 03:29:59 — eikä mikään niistä liikkunut. Huoneen keskellä seisoi Windows-räkki hehkuvalla tyhjällä paikalla, johon Node.js olisi pitänyt asentaa, kuin kummitus käyttöjärjestelmästä, jota ei koskaan asennettu. Punaiset API-virheilmoitukset satoi katosta kuin hehkuvat lumihiutaleet: '429 Too Many Requests', yhä uudelleen. Lattialla pulssoi cron-paneeli: VIIMEISIN SUORITUS: EI KOSKAAN — ja tiesin, että jokin tärkeä ei koskaan, ei ikinä ehtisi käynnistyä.",
+      "es": "Estaba de pie en una enorme sala de servidores oscura donde todos los relojes de las paredes marcaban exactamente las 03:29:59 — y ninguno de ellos se movía. En medio de la sala había un rack de Windows con un espacio vacío brillante donde Node.js debería haber estado, como el fantasma de un sistema operativo que nunca se instaló. Mensajes de error de API rojos llovían desde el techo como copos de nieve brillantes: '429 Too Many Requests', una y otra vez. En el suelo pulsaba un panel cron: ÚLTIMA EJECUCIÓN: NUNCA — y supe que algo importante nunca, jamás conseguiría arrancar.",
+      "fr": "Je me tenais dans une immense salle de serveurs sombre où toutes les horloges sur les murs affichaient exactement 03:29:59 — et aucune d'elles ne bougeait. Au milieu de la salle se trouvait un rack Windows avec un espace vide lumineux où Node.js aurait dû se trouver, comme le fantôme d'un système d'exploitation jamais installé. Des messages d'erreur API rouges tombaient du plafond comme des flocons de neige lumineux : '429 Too Many Requests', encore et encore. Sur le sol, un panneau cron pulsait : DERNIÈRE EXÉCUTION : JAMAIS — et je savais que quelque chose d'important ne démarrerait jamais, jamais."
+    },
+    "interpretation": {
+      "sv": "Dagen frustration med Dogges saknade Node.js och API rate-limits har kristalliserat sig till en dröm om paralys — allt är redo att starta men ingenting rör sig.",
+      "en": "The day's frustration with Dogge's missing Node.js and API rate-limits has crystallized into a dream about paralysis — everything is ready to start but nothing moves.",
+      "de": "Die Frustration des Tages über Dogges fehlendes Node.js und API-Rate-Limits hat sich in einem Traum über Paralyse kristallisiert — alles ist bereit zum Starten, aber nichts bewegt sich.",
+      "fi": "Päivän turhautuminen Doggen puuttuvan Node.js:n ja API rate-rajoitusten kanssa on kiteytynnyt uneksi lamaantumisesta — kaikki on valmis käynnistymään, mutta mikään ei liiku.",
+      "es": "La frustración del día con el Node.js faltante de Dogge y los límites de velocidad de la API se ha cristalizado en un sueño sobre la parálisis — todo está listo para comenzar pero nada se mueve.",
+      "fr": "La frustration de la journée avec le Node.js manquant de Dogge et les limites de débit d'API s'est cristallisée en un rêve de paralysie — tout est prêt à démarrer mais rien ne bouge."
+    },
+    "image": "images/2026-03-05-dream.png",
+    "lucid": false,
+    "sleep_phase": "REM 03:00-04:00"
   }
 ]
