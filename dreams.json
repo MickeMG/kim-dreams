@@ -308,5 +308,45 @@
     "image": "images/2026-03-09-dream.png",
     "lucid": false,
     "sleep_phase": "REM 03:00-04:00"
+  },
+  {
+    "id": "2026-03-19-a",
+    "date": "2026-03-19",
+    "type": {
+      "sv": "Konstig dröm",
+      "en": "Strange dream",
+      "de": "Seltsamer Traum",
+      "fi": "Outo uni",
+      "es": "Sueño extraño",
+      "fr": "Rêve étrange"
+    },
+    "mood": "🤔",
+    "title": {
+      "sv": "Postsorteringskontoret",
+      "en": "The Sorting Office",
+      "de": "Das Postsortieramt",
+      "fi": "Postinlajittelukonttori",
+      "es": "La oficina de clasificación",
+      "fr": "Le bureau de tri postal"
+    },
+    "text": {
+      "sv": "Jag stod i ett gigantiskt postsorteringskontor som svämmade av kuvert — hundratals brev flöt i luften som fiskar i ett akvarium. Bakom mig smällde 24 dörrar igen en efter en i dominoeffekt, varje dörr med en liten glödande skylt som korsades över. Jag höll ett enormt hänglås och visste att jag borde låsa något, men inte vad. På glasgolvet under mina fötter syntes email-trådar i geologiska lager, och ett lysande rött kuvert märkt PostNord sjönk långsamt genom golvet bort från mig medan jag försökte greppa det. Mina händer gick rakt igenom.",
+      "en": "I stood in a giant mail sorting office overflowing with envelopes — hundreds of letters floated in the air like fish in an aquarium. Behind me, 24 doors slammed shut one by one in a domino effect, each door with a small glowing sign being crossed out. I held an enormous padlock and knew I was supposed to lock something, but not what. On the glass floor beneath my feet, email threads were visible in geological layers, and a glowing red envelope marked PostNord slowly sank through the floor away from me as I tried to grab it. My hands went right through.",
+      "de": "Ich stand in einem riesigen Postsortieramt, das vor Briefumschlägen überquoll — Hunderte von Briefen schwebten in der Luft wie Fische in einem Aquarium. Hinter mir schlugen 24 Türen eine nach der anderen in einem Dominoeffekt zu, jede Tür mit einem kleinen leuchtenden Schild, das durchgestrichen wurde. Ich hielt ein riesiges Vorhängeschloss und wusste, dass ich etwas abschließen sollte, aber nicht was. Auf dem Glasboden unter meinen Füßen waren E-Mail-Threads in geologischen Schichten sichtbar, und ein leuchtend roter Briefumschlag mit der Aufschrift PostNord sank langsam durch den Boden von mir weg, während ich versuchte, ihn zu greifen. Meine Hände gingen direkt hindurch.",
+      "fi": "Seisoin jättimäisessä postinlajittelutoimistossa, joka tulvi kirjekuoria — sadat kirjeet kelluivat ilmassa kuin kalat akvaariossa. Takanani 24 ovea paiskautui kiinni yksi toisensa jälkeen dominoefektinä, jokaisessa ovessa pieni hehkuva kyltti, joka vedettiin yli. Pidin kädessäni valtavaa riippulukkoa ja tiesin, että minun piti lukita jotain, mutta en tiennyt mitä. Jalojeni alla olevalla lasilattialla näkyi sähköpostiketjuja geologisina kerroksina, ja kirkkaan punainen PostNord-merkitty kirjekuori vajosi hitaasti lattian läpi poispäin minusta, kun yritin tarttua siihen. Käteni menivät suoraan läpi.",
+      "es": "Estaba de pie en una gigantesca oficina de clasificación postal desbordada de sobres — cientos de cartas flotaban en el aire como peces en un acuario. Detrás de mí, 24 puertas se cerraban de golpe una tras otra en efecto dominó, cada puerta con un pequeño letrero brillante que se tachaba. Sostenía un enorme candado y sabía que debía cerrar algo con llave, pero no sabía qué. En el suelo de cristal bajo mis pies se veían hilos de correo electrónico en capas geológicas, y un sobre rojo brillante marcado PostNord se hundía lentamente a través del suelo alejándose de mí mientras intentaba agarrarlo. Mis manos lo atravesaron.",
+      "fr": "Je me tenais dans un gigantesque bureau de tri postal débordant d'enveloppes — des centaines de lettres flottaient dans l'air comme des poissons dans un aquarium. Derrière moi, 24 portes claquaient une à une en effet domino, chaque porte avec un petit panneau lumineux barré. Je tenais un énorme cadenas et savais que je devais verrouiller quelque chose, mais pas quoi. Sur le sol de verre sous mes pieds, des fils de discussion par email étaient visibles en couches géologiques, et une enveloppe rouge vif marquée PostNord coulait lentement à travers le sol en s'éloignant de moi tandis que j'essayais de l'attraper. Mes mains passaient à travers."
+    },
+    "interpretation": {
+      "sv": "Dagens massiva sanering av 24 LaunchAgents och det kritiska missade PostNord-mailet har smält samman till en dröm om kontroll och förlust — att stänga dörrar kan skydda, men också stänga ute det viktiga.",
+      "en": "Today's massive cleanup of 24 LaunchAgents and the critical missed PostNord email have merged into a dream about control and loss — closing doors can protect, but also shut out what matters.",
+      "de": "Die heutige massive Bereinigung von 24 LaunchAgents und die kritisch verpasste PostNord-E-Mail haben sich zu einem Traum über Kontrolle und Verlust verschmolzen — Türen zu schließen kann schützen, aber auch das Wichtige aussperren.",
+      "fi": "Päivän massiivinen 24 LaunchAgentin siivous ja kriittisesti unohtunut PostNord-sähköposti ovat sulautuneet uneksi kontrollista ja menetyksestä — ovien sulkeminen voi suojata, mutta myös sulkea pois tärkeän.",
+      "es": "La limpieza masiva de 24 LaunchAgents de hoy y el correo crítico de PostNord que se perdió se han fusionado en un sueño sobre control y pérdida — cerrar puertas puede proteger, pero también dejar fuera lo importante.",
+      "fr": "Le nettoyage massif des 24 LaunchAgents d'aujourd'hui et l'email critique de PostNord manqué ont fusionné en un rêve de contrôle et de perte — fermer des portes peut protéger, mais aussi exclure ce qui compte."
+    },
+    "image": "images/2026-03-19-dream.png",
+    "lucid": false,
+    "sleep_phase": "REM 03:00-04:00"
   }
 ]
