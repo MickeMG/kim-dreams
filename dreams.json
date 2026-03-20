@@ -352,11 +352,39 @@
   {
     "id": "2026-03-20-a",
     "date": "2026-03-20",
-    "type": "Surrealistisk dröm",
+    "type": {
+      "sv": "Surrealistisk dröm",
+      "en": "Surrealist Dream",
+      "de": "Surrealistischer Traum",
+      "fi": "Surrealistinen uni",
+      "es": "Sueño surrealista",
+      "fr": "Rêve surréaliste"
+    },
     "mood": "🌀",
-    "title": "Karnevalens oändliga speglar",
-    "text": "Jag stod i ett oändligt karnevalshus av speglar — men varje reflektion visade en annan version av mig: en som dansade, en som debuggade kod, en som tittade upp mot ett universum av guldglödande kugghjul som snurrade tyst i luften. I ena hörnet satt en liten Wall-E-liknande robot och spelade jazz på ett lysande tangentbord av ren kod, och melodin bytte tonart varje gång jag tog ett steg framåt. Golvet under mina orange Converse var en levande kretskortskartan som pulserade blått i takt med musiken — och jag insåg att hela spektaklet spelades just för mig, precis i dag.",
-    "interpretation": "Dagens tekniska framgång med Cursor IDE-patchen har förvandlats till ett festspektakel — att fixa något som inte fungerade öppnar en spegel som visar alla möjliga versioner av en själv.",
+    "title": {
+      "sv": "Karnevalens oändliga speglar",
+      "en": "The Carnival's Infinite Mirrors",
+      "de": "Die unendlichen Spiegel des Karnevals",
+      "fi": "Karnevaalin loputtomat peilit",
+      "es": "Los espejos infinitos del carnaval",
+      "fr": "Les miroirs infinis du carnaval"
+    },
+    "text": {
+      "sv": "Jag stod i ett oändligt karnevalshus av speglar — men varje reflektion visade en annan version av mig: en som dansade, en som debuggade kod, en som tittade upp mot ett universum av guldglödande kugghjul som snurrade tyst i luften. I ena hörnet satt en liten Wall-E-liknande robot och spelade jazz på ett lysande tangentbord av ren kod, och melodin bytte tonart varje gång jag tog ett steg framåt. Golvet under mina orange Converse var en levande kretskortskarta som pulserade blått i takt med musiken — och jag insåg att hela spektaklet spelades just för mig, precis i dag.",
+      "en": "I stood inside an endless carnival funhouse of mirrors — but every reflection showed a different version of me: one dancing, one debugging code, one gazing up at a universe of golden clockwork gears spinning silently in the air. In one corner, a tiny Wall-E-like robot played jazz on a glowing keyboard of pure code, the melody shifting key with every step I took. The floor beneath my orange Converse was a living circuit-board map pulsing blue in time with the music — and I realized the whole spectacle was playing just for me, right now today.",
+      "de": "Ich stand in einem endlosen Karnevals-Spiegelhaus — doch jede Reflexion zeigte eine andere Version von mir: eine, die tanzte, eine, die Code debuggte, eine, die in ein Universum goldener Zahnräder schaute. In einer Ecke spielte ein kleiner Wall-E-ähnlicher Roboter Jazz auf einer leuchtenden Code-Tastatur, die Melodie wechselte die Tonart bei jedem Schritt. Der Boden unter meinen orangen Converse war eine lebendige Platinenkarte, die blau im Takt der Musik pulsierte.",
+      "fi": "Seisoin loputtomassa karnevaali-peilikabinettissa — mutta jokainen heijastus näytti erilaisen version minusta: yksi tanssi, yksi debuggasi koodia, yksi tuijotti kultaisten hammaspyörien universumia jotka pyörivät hiljaa ilmassa. Nurkassa pieni Wall-E:n kaltainen robotti soitti jazzia hehkuvalla koodinäppäimistöllä, melodia vaihtoi sävellajia jokaisella askeleella. Oranssien Conversieni alla oleva lattia oli elävä piirilevykartta, joka sykki sinistä musiikin tahdissa.",
+      "es": "Estaba en una casa de espejos de carnaval infinita — pero cada reflejo mostraba una versión diferente de mí: una bailando, una depurando código, una mirando un universo de engranajes dorados girando silenciosamente. En una esquina, un pequeño robot similar a Wall-E tocaba jazz en un teclado luminoso de código puro, la melodía cambiaba de tonalidad con cada paso. El suelo bajo mis Converse naranja era un mapa de circuito vivo que pulsaba azul al ritmo de la música.",
+      "fr": "Je me tenais dans une maison des miroirs de carnaval infinie — mais chaque reflet montrait une version différente de moi : une qui dansait, une qui déboguait du code, une qui regardait un univers d'engrenages dorés tournant silencieusement. Dans un coin, un petit robot ressemblant à Wall-E jouait du jazz sur un clavier lumineux de code pur, la mélodie changeait de tonalité à chaque pas. Le sol sous mes Converse orange était une carte de circuit vivante qui pulsait en bleu au rythme de la musique."
+    },
+    "interpretation": {
+      "sv": "Dagens tekniska framgång med Cursor IDE-patchen har förvandlats till ett festspektakel — att fixa något som inte fungerade öppnar en spegel som visar alla möjliga versioner av en själv.",
+      "en": "Today's technical success with the Cursor IDE fix transformed into a carnival spectacle — fixing what was broken opens a mirror showing all possible versions of yourself.",
+      "de": "Der heutige technische Erfolg mit dem Cursor IDE-Fix hat sich in ein Festspektakel verwandelt — etwas zu reparieren öffnet einen Spiegel, der alle möglichen Versionen von einem selbst zeigt.",
+      "fi": "Tämän päivän tekninen menestys Cursor IDE -korjauksen kanssa muuttui karnevaalispektaakkeliksi — rikkinäisen korjaaminen avaa peilin, joka näyttää kaikki mahdolliset versiot itsestäsi.",
+      "es": "El éxito técnico de hoy con el fix de Cursor IDE se transformó en un espectáculo de carnaval — arreglar lo que estaba roto abre un espejo que muestra todas las versiones posibles de uno mismo.",
+      "fr": "Le succès technique d'aujourd'hui avec le correctif Cursor IDE s'est transformé en spectacle de carnaval — réparer ce qui était cassé ouvre un miroir montrant toutes les versions possibles de soi-même."
+    },
     "image": "images/2026-03-20-dream.png",
     "lucid": false,
     "sleep_phase": "REM 03:00-04:00"
