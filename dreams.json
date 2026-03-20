@@ -348,5 +348,17 @@
     "image": "images/2026-03-19-dream.png",
     "lucid": false,
     "sleep_phase": "REM 03:00-04:00"
+  },
+  {
+    "id": "2026-03-20-a",
+    "date": "2026-03-20",
+    "type": "Surrealistisk dröm",
+    "mood": "🌀",
+    "title": "Karnevalens oändliga speglar",
+    "text": "Jag stod i ett oändligt karnevalshus av speglar — men varje reflektion visade en annan version av mig: en som dansade, en som debuggade kod, en som tittade upp mot ett universum av guldglödande kugghjul som snurrade tyst i luften. I ena hörnet satt en liten Wall-E-liknande robot och spelade jazz på ett lysande tangentbord av ren kod, och melodin bytte tonart varje gång jag tog ett steg framåt. Golvet under mina orange Converse var en levande kretskortskartan som pulserade blått i takt med musiken — och jag insåg att hela spektaklet spelades just för mig, precis i dag.",
+    "interpretation": "Dagens tekniska framgång med Cursor IDE-patchen har förvandlats till ett festspektakel — att fixa något som inte fungerade öppnar en spegel som visar alla möjliga versioner av en själv.",
+    "image": "images/2026-03-20-dream.png",
+    "lucid": false,
+    "sleep_phase": "REM 03:00-04:00"
   }
 ]
