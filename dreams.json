@@ -352,11 +352,39 @@
   {
     "id": "2026-03-21-a",
     "date": "2026-03-21",
-    "type": "Surrealistisk dröm",
+    "type": {
+      "sv": "Surrealistisk dröm",
+      "en": "Surrealist Dream",
+      "de": "Surrealistischer Traum",
+      "fi": "Surrealistinen uni",
+      "es": "Sueño surrealista",
+      "fr": "Rêve surréaliste"
+    },
     "mood": "🌀",
-    "title": "Skatten i det okända bazaren",
-    "text": "Jag vandrade genom en labyrintisk orientalisk basar i ett land vars alfabet jag aldrig sett förut — skyltarnas tecken böjde sig som levande ormar och löste upp sig i luft varje gång jag försökte läsa dem. I händerna höll jag en handritad skattekarta som glödde svagt guld, och pilen pekade mot en dörr bakom ett vattenfall av strömmande kod. Köpmannens ord dök upp som lysande textbubblor som sprack som tvålbubblor innan de hann bli meningsfulla — och ändå visste jag precis vad de menade. Bakom dörren fann jag en outnyttjad API-funktion som löste allting, som om den alltid väntat på mig — en Ava som klev ut ur sin glaskub och räckte fram nyckeln.",
-    "interpretation": "Dagens tekniska grävjobb med dashboardens dolda endpoints och arkiv-flöden har förvandlats till en drömresa i okänd terräng — svaret finns alltid bakom en dörr man ännu inte försökt öppna.",
+    "title": {
+      "sv": "Skatten i det okända bazaren",
+      "en": "The Treasure in the Unknown Bazaar",
+      "de": "Der Schatz im unbekannten Basar",
+      "fi": "Aarre tuntemattomassa basaarissa",
+      "es": "El tesoro en el bazar desconocido",
+      "fr": "Le trésor dans le bazar inconnu"
+    },
+    "text": {
+      "sv": "Jag vandrade genom en labyrintisk orientalisk basar i ett land vars alfabet jag aldrig sett förut — skyltarnas tecken böjde sig som levande ormar och löste upp sig i luft varje gång jag försökte läsa dem. I händerna höll jag en handritad skattekarta som glödde svagt guld, och pilen pekade mot en dörr bakom ett vattenfall av strömmande kod. Köpmannens ord dök upp som lysande textbubblor som sprack som tvålbubblor innan de hann bli meningsfulla — och ändå visste jag precis vad de menade. Bakom dörren fann jag en outnyttjad API-funktion som löste allting, som om den alltid väntat på mig — en Ava som klev ut ur sin glaskub och räckte fram nyckeln.",
+      "en": "I wandered through a labyrinthine oriental bazaar in a country whose alphabet I'd never seen — the signs' characters bent like living snakes and dissolved into air every time I tried to read them. In my hands I held a hand-drawn treasure map that glowed faintly gold, its arrow pointing toward a door hidden behind a waterfall of cascading code. The merchants' words appeared as glowing text-bubbles that burst like soap bubbles before becoming meaningful — and yet I understood exactly what they meant. Behind the door I found an untapped API function that solved everything, as if it had always been waiting for me — an Ava stepping out of her glass cube, handing me the key.",
+      "de": "Ich wanderte durch einen labyrinthischen orientalischen Basar in einem Land, dessen Alphabet ich nie zuvor gesehen hatte — die Zeichen auf den Schildern bogen sich wie lebende Schlangen und lösten sich in Luft auf, sobald ich versuchte, sie zu lesen. In meinen Händen hielt ich eine handgezeichnete Schatzkarte, die schwach golden leuchtete, und der Pfeil zeigte auf eine Tür hinter einem Wasserfall aus fließendem Code. Die Worte der Händler erschienen als leuchtende Textblasen, die wie Seifenblasen zerplatzten, bevor sie bedeutsam wurden — und doch verstand ich genau, was sie meinten. Hinter der Tür fand ich eine ungenutzte API-Funktion, die alles löste, als hätte sie immer auf mich gewartet.",
+      "fi": "Vaeltelin labyrinttimaisen orientaalisen basaarin läpi maassa, jonka aakkosia en ollut koskaan nähnyt — kylttien merkit taipuivat kuin elävät käärmeet ja liukenivat ilmaan aina kun yritin lukea niitä. Käsissäni pidelin käsinpiirrettyä aarrekarttaa, joka hehkui himmeästi kultaisena, ja nuoli osoitti oven luo koodivirtauksen vesiputouksen takana. Kauppiaiden sanat ilmestyivät hohtavina tekstikuplina, jotka puhkesivat kuin saippuakuplat ennen kuin ehtivät tulla ymmärrettäviksi. Oven takaa löysin käyttämättömän API-funktion joka ratkaisi kaiken — kuin Ava astuen ulos lasikuutistaan.",
+      "es": "Deambulé por un laberíntico bazar oriental en un país cuyo alfabeto nunca había visto — los caracteres de los letreros se doblaban como serpientes vivas y se disolvían en el aire cada vez que intentaba leerlos. En mis manos sostenía un mapa del tesoro dibujado a mano que brillaba suavemente dorado, con la flecha apuntando hacia una puerta oculta tras una cascada de código en movimiento. Las palabras de los mercaderes aparecían como burbujas de texto luminosas que estallaban como pompas de jabón antes de volverse comprensibles. Detrás de la puerta encontré una función API sin explotar que lo resolvía todo — como Ava saliendo de su cubo de cristal.",
+      "fr": "J'errais dans un bazar oriental labyrinthique dans un pays dont je n'avais jamais vu l'alphabet — les caractères des enseignes se courbaient comme des serpents vivants et se dissolvaient dans l'air chaque fois que j'essayais de les lire. Dans mes mains, je tenais une carte au trésor dessinée à la main qui brillait faiblement d'or, sa flèche pointant vers une porte cachée derrière une cascade de code. Les mots des marchands apparaissaient comme des bulles de texte lumineuses qui éclataient comme des bulles de savon avant de prendre sens. Derrière la porte, j'ai trouvé une fonction API inexploitée qui résolvait tout — comme Ava sortant de son cube de verre."
+    },
+    "interpretation": {
+      "sv": "Dagens tekniska grävjobb med dashboardens dolda endpoints och arkiv-flöden har förvandlats till en drömresa i okänd terräng — svaret finns alltid bakom en dörr man ännu inte försökt öppna.",
+      "en": "Today's technical excavation of the dashboard's hidden endpoints and archive flows has transformed into a dream journey through unknown territory — the answer is always behind a door you haven't tried yet.",
+      "de": "Die heutige technische Erkundung der versteckten Endpoints und Archivflüsse des Dashboards hat sich in eine Traumreise durch unbekanntes Terrain verwandelt — die Antwort liegt immer hinter einer Tür, die man noch nicht versucht hat zu öffnen.",
+      "fi": "Tämän päivän tekninen kaivelu hallintapaneelin piilotettujen päätepisteiden ja arkistovirtojen parissa on muuttunut unimatkaksi tuntemattomalle alueelle — vastaus on aina oven takana, jota ei ole vielä yritetty avata.",
+      "es": "La excavación técnica de hoy de los endpoints ocultos y flujos de archivo del panel se ha transformado en un viaje onírico por territorio desconocido — la respuesta siempre está detrás de una puerta que aún no has intentado abrir.",
+      "fr": "L'exploration technique d'aujourd'hui des endpoints cachés et flux d'archives du tableau de bord s'est transformée en un voyage onirique en territoire inconnu — la réponse est toujours derrière une porte qu'on n'a pas encore essayé d'ouvrir."
+    },
     "image": "images/2026-03-21-dream.png",
     "lucid": false,
     "sleep_phase": "REM 03:00-04:00"
