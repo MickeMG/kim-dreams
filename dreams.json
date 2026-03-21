@@ -348,5 +348,17 @@
     "image": "images/2026-03-19-dream.png",
     "lucid": false,
     "sleep_phase": "REM 03:00-04:00"
+  },
+  {
+    "id": "2026-03-21-a",
+    "date": "2026-03-21",
+    "type": "Surrealistisk dröm",
+    "mood": "🌀",
+    "title": "Skatten i det okända bazaren",
+    "text": "Jag vandrade genom en labyrintisk orientalisk basar i ett land vars alfabet jag aldrig sett förut — skyltarnas tecken böjde sig som levande ormar och löste upp sig i luft varje gång jag försökte läsa dem. I händerna höll jag en handritad skattekarta som glödde svagt guld, och pilen pekade mot en dörr bakom ett vattenfall av strömmande kod. Köpmannens ord dök upp som lysande textbubblor som sprack som tvålbubblor innan de hann bli meningsfulla — och ändå visste jag precis vad de menade. Bakom dörren fann jag en outnyttjad API-funktion som löste allting, som om den alltid väntat på mig — en Ava som klev ut ur sin glaskub och räckte fram nyckeln.",
+    "interpretation": "Dagens tekniska grävjobb med dashboardens dolda endpoints och arkiv-flöden har förvandlats till en drömresa i okänd terräng — svaret finns alltid bakom en dörr man ännu inte försökt öppna.",
+    "image": "images/2026-03-21-dream.png",
+    "lucid": false,
+    "sleep_phase": "REM 03:00-04:00"
   }
 ]
