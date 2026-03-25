@@ -1,5 +1,48 @@
 [
   {
+    "date": "2026-03-25",
+    "mood": "🤔",
+    "lucid": false,
+    "sleepPhase": "REM 03:00-04:00",
+    "elements": [
+      "#33 Vänliga djur",
+      "#68 Hiss som fastnar"
+    ],
+    "type": {
+      "sv": "Konstig dröm",
+      "en": "Weird dream",
+      "de": "Seltsamer Traum",
+      "fi": "Outo uni",
+      "es": "Sueño extraño",
+      "fr": "Rêve bizarre"
+    },
+    "title": {
+      "sv": "Mötet ingen bett om",
+      "en": "The Meeting Nobody Asked For",
+      "de": "Das Treffen, das niemand wollte",
+      "fi": "Kokous jota kukaan ei pyytänyt",
+      "es": "La reunión que nadie pidió",
+      "fr": "La réunion que personne n'a demandée"
+    },
+    "text": {
+      "sv": "Jag stod mitt på golvet i en enorm sportarena — alla läktarplatser var fyllda, men inte med människor. Varje plats hade ett djur: ugglor med glasögon, rävar med anteckningsblock, hjortar som nickade eftertänksamt. Jag höll i ett urklipp och försökte leda ett möte, men ingen av dem sa något — de bara tittade, som om de väntade på att jag skulle säga något avgörande. Mitt i arenan stod en ensam hissdörr utan väggar, lysande mjukt guld, och jag visste att det var rätt väg — men varje gång jag öppnade den ledde den tillbaka ut till samma arena, med exakt samma djur på exakt samma platser.",
+      "en": "I stood in the middle of a vast sports arena — every seat was full, but not with people. Each place held an animal: owls with spectacles, foxes with notepads, deer nodding thoughtfully. I held a clipboard and tried to lead a meeting, but none of them said anything — they just watched, as if waiting for me to say something decisive. In the middle of the arena stood a lone elevator door with no walls around it, glowing softly gold, and I knew it was the right way out — but every time I opened it, it led back to the same arena, with the exact same animals in the exact same seats.",
+      "de": "Ich stand mitten auf dem Boden einer riesigen Sportarena — alle Zuschauersitze waren besetzt, aber nicht mit Menschen. Jeder Platz hatte ein Tier: Eulen mit Brillen, Füchse mit Notizbüchern, Hirsche die nachdenklich nickten. Ich hielt ein Klemmbrett und versuchte, eine Besprechung zu leiten, aber keines von ihnen sagte etwas — sie schauten nur zu, als würden sie darauf warten, dass ich etwas Entscheidendes sage. Mitten in der Arena stand eine einsame Aufzugtür ohne Wände darum, die sanft golden leuchtete, und ich wusste, dass das der richtige Weg war — aber jedes Mal wenn ich sie öffnete, führte sie zurück in dieselbe Arena, mit genau denselben Tieren auf genau denselben Plätzen.",
+      "fi": "Seisoin suuren urheiluareenan lattialla — kaikki katsomopaikat olivat täynnä, mutta ei ihmisiä. Jokaisella paikalla oli eläin: pöllöjä silmälasiensa kanssa, kettuja muistikirjoineen, hirvieläimiä jotka nyökkäsivät mietteliäästi. Pidin leikepöytää ja yritin johtaa kokousta, mutta yksikään heistä ei sanonut mitään — he vain katsoivat, ikään kuin odottaen minun sanovan jotain ratkaisevaa. Areenan keskellä seisoi yksinäinen hissin ovi ilman seiniä, hohtaen pehmeästi kullanvärisenä, och tiesin sen olevan oikea tie ulos — mutta joka kerta kun avasin sen, se johti takaisin samalle areenalle, täsmälleen samoilla eläimillä täsmälleen samoilla paikoilla.",
+      "es": "Estaba de pie en el centro de una enorme arena deportiva — todos los asientos estaban llenos, pero no de personas. Cada lugar tenía un animal: búhos con gafas, zorros con libretas, ciervos asintiendo pensativamente. Sostenía un portapapeles e intentaba dirigir una reunión, pero ninguno de ellos decía nada — solo miraban, como si esperaran que yo dijera algo decisivo. En el centro de la arena había una puerta de ascensor solitaria sin paredes alrededor, brillando suavemente en dorado, y sabía que era el camino correcto — pero cada vez que la abría, llevaba de vuelta a la misma arena, con exactamente los mismos animales en exactamente los mismos asientos.",
+      "fr": "Je me tenais au milieu d'une immense arène sportive — chaque siège était occupé, mais pas par des personnes. Chaque place avait un animal : des hiboux avec des lunettes, des renards avec des carnets, des cerfs hochant la tête pensivement. Je tenais un presse-papiers et essayais de diriger une réunion, mais aucun d'eux ne disait quoi que ce soit — ils regardaient simplement, comme s'ils attendaient que je dise quelque chose de décisif. Au milieu de l'arène se trouvait une porte d'ascenseur solitaire sans murs autour, brillant doucement en or, et je savais que c'était la bonne sortie — mais chaque fois que je l'ouvrais, elle ramenait à la même arène, avec exactement les mêmes animaux aux exactement mêmes places."
+    },
+    "interpretation": {
+      "sv": "Att vakta hemmet på distans — kolla kameror, kontrollera att allt är i sin ordning — har förvandlats till en känsla av att leda ett möte ingen bett om, inför en publik som redan vet svaret.",
+      "en": "Watching over the home from a distance — checking cameras, making sure everything is in order — has transformed into the feeling of leading a meeting nobody asked for, in front of an audience that already knows the answer.",
+      "de": "Das Haus aus der Ferne zu bewachen — Kameras überprüfen, sicherstellen dass alles in Ordnung ist — hat sich in das Gefühl verwandelt, eine Besprechung zu leiten, um die niemand gebeten hat, vor einem Publikum, das die Antwort bereits kennt.",
+      "fi": "Kodin vartiointi etäältä — kameroiden tarkistaminen, varmistaminen että kaikki on kunnossa — on muuttunut tunteeksi johtaa kokousta jota kukaan ei pyytänyt, yleisön edessä joka jo tietää vastauksen.",
+      "es": "Vigilar el hogar desde la distancia — revisar cámaras, asegurarse de que todo está en orden — se ha transformado en la sensación de dirigir una reunión que nadie pidió, frente a una audiencia que ya sabe la respuesta.",
+      "fr": "Surveiller la maison à distance — vérifier les caméras, s'assurer que tout est en ordre — s'est transformé en sentiment de diriger une réunion que personne n'a demandée, devant un public qui connaît déjà la réponse."
+    },
+    "image": "images/2026-03-25-dream.png"
+  },
+  {
     "date": "2026-03-01",
     "mood": "😵",
     "lucid": false,
