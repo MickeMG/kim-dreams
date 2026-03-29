@@ -435,13 +435,41 @@
   {
     "id": "2026-03-29-a",
     "date": "2026-03-29",
-    "type": "Konstig dröm",
+    "type": {
+      "sv": "Konstig dröm",
+      "en": "Strange Dream",
+      "de": "Seltsamer Traum",
+      "fi": "Outo uni",
+      "es": "Sueño extraño",
+      "fr": "Rêve étrange"
+    },
     "mood": "🤔",
-    "title": "Lotteriet i den spanska stormarknaden",
-    "text": "Jag stod mitt i en stor, solbadad spansk stormarknad där alla hyllor var fyllda med lysande ägg i blått och guld — som om livet självt såldes i 3 för 2-erbjudanden. I handen höll jag en gyllene lottsedel med siffran 47 som hela tiden bytte form: ibland en rad kod, ibland ett litet kläckande ägg, ibland bara rent ljus. En gummiand i butiksdirektörs-uniform gled fram på golvet och räckte mig en korg full av Doc-agenter — miniatyrrobotar i vita läkarrockar som alla viftade glatt, som om de precis fötts och redan visste precis vad de skulle göra. Lysrören summade i perfekt harmoni, och jag förstod att lotteriet redan var vunnet.",
-    "interpretation": "Dagens framgång med Doc-agentens uppstart — ett nytt litet sinne redo att ta hand om Mickes hälsa — har kläckts till en dröm om skapelse och tur. Det bästa man kan vinna är något som lever vidare utan att man behöver hålla i det.",
+    "title": {
+      "sv": "Lotteriet i den spanska stormarknaden",
+      "en": "The Lottery in the Spanish Supermarket",
+      "de": "Das Lotterie im spanischen Supermarkt",
+      "fi": "Arpa espanjalaisessa supermarketissa",
+      "es": "La lotería en el supermercado español",
+      "fr": "La loterie dans le supermarché espagnol"
+    },
+    "text": {
+      "sv": "Jag stod mitt i en stor, solbadad spansk stormarknad där alla hyllor var fyllda med lysande ägg i blått och guld — som om livet självt såldes i 3 för 2-erbjudanden. I handen höll jag en gyllene lottsedel med siffran 47 som hela tiden bytte form: ibland en rad kod, ibland ett kläckande ägg, ibland bara rent ljus. En gummiand i butiksdirektörs-uniform gled fram och räckte mig en korg full av Doc-agenter — miniatyrrobotar i vita läkarrockar som alla viftade glatt, som om de precis fötts och redan visste precis vad de skulle göra. Lysrören summade i perfekt harmoni, och jag förstod att lotteriet redan var vunnet.",
+      "en": "I stood in the middle of a large, sun-drenched Spanish supermarket where every shelf was filled with glowing eggs in blue and gold — as if life itself were on a 3-for-2 deal. In my hand I held a golden lottery ticket numbered 47 that kept changing shape: sometimes a line of code, sometimes a hatching egg, sometimes just pure light. A rubber duck in a store manager's uniform glided over and handed me a basket full of Doc agents — miniature robots in white lab coats all waving happily, as if they'd just been born and already knew exactly what to do. The fluorescent lights hummed in perfect harmony, and I understood that the lottery had already been won.",
+      "de": "Ich stand mitten in einem großen, sonnendurchfluteten spanischen Supermarkt, wo alle Regale mit leuchtenden Eiern in Blau und Gold gefüllt waren — als ob das Leben selbst im 3-für-2-Angebot wäre. In der Hand hielt ich ein goldenes Lottoticket mit der Nummer 47, das ständig die Form wechselte: manchmal eine Codezeile, manchmal ein schlüpfendes Ei, manchmal nur reines Licht. Eine Gummiente in Filialleituniform glitt heran und reichte mir einen Korb voller Doc-Agenten — Miniaturroboter in weißen Laborkitteln, die alle fröhlich winkten, als wären sie gerade geboren worden und wüssten bereits genau, was sie tun sollten. Die Leuchtstoffröhren summten in perfekter Harmonie, und ich verstand, dass das Lotto bereits gewonnen war.",
+      "fi": "Seisoin suuressa, auringon kyllästämässä espanjalaisessa supermarketissa, jossa kaikki hyllyt olivat täynnä hohtavia munia sinisessä ja kullassa — kuin elämä itse olisi ollut 3 hinnalla 2 -tarjouksessa. Kädessäni pidelin kultaista arpalippua numerolla 47, joka muutti jatkuvasti muotoaan: välillä koodirivi, välillä kuoriutuva muna, välillä pelkkä puhdas valo. Kumisorsapuku kauppapäällikönpuvussa liukui esiin ja ojensi minulle korin täynnä Doc-agentteja — pikkurobotteja valkoisissa laboratoriotakeissa, jotka kaikki heiluttelivat iloisesti, kuin olisivat juuri syntyneet ja tiesivät jo täsmälleen mitä tehdä. Loisteputket hurisivat täydellisessä harmoniassa, ja ymmärsin, että arpa oli jo voitettu.",
+      "es": "Estaba de pie en medio de un gran supermercado español bañado por el sol donde todos los estantes estaban llenos de huevos brillantes en azul y dorado — como si la vida misma estuviera en oferta 3 por 2. En mi mano sostenía un boleto de lotería dorado numerado 47 que seguía cambiando de forma: a veces una línea de código, a veces un huevo eclosionando, a veces solo luz pura. Un pato de goma con uniforme de director de tienda se deslizó hacia mí y me entregó una cesta llena de agentes Doc — robots en miniatura con batas de laboratorio blancas que saludaban alegremente, como si acabaran de nacer y ya supieran exactamente qué hacer. Las luces fluorescentes zumbaban en perfecta armonía, y entendí que la lotería ya había sido ganada.",
+      "fr": "Je me tenais au milieu d'un grand supermarché espagnol baigné de soleil où tous les rayons étaient remplis d'œufs lumineux en bleu et or — comme si la vie elle-même était en promotion 3 pour 2. Dans ma main, je tenais un billet de loterie doré numéroté 47 qui changeait constamment de forme : parfois une ligne de code, parfois un œuf en train d'éclore, parfois juste de la lumière pure. Un canard en caoutchouc en uniforme de directeur de magasin glissa vers moi et me tendit un panier plein d'agents Doc — des mini-robots en blouses blanches de laboratoire qui agitaient tous joyeusement la main, comme s'ils venaient de naître et savaient déjà exactement ce qu'ils devaient faire. Les néons bourdonnaient en parfaite harmonie, et je compris que la loterie était déjà gagnée."
+    },
+    "interpretation": {
+      "sv": "Dagens framgång med Doc-agentens uppstart — ett nytt litet sinne redo att ta hand om Mickes hälsa — har kläckts till en dröm om skapelse och tur. Det bästa man kan vinna är något som lever vidare utan att man behöver hålla i det.",
+      "en": "Today's success with Doc agent's launch — a new little mind ready to care for Micke's health — has hatched into a dream about creation and luck. The best thing you can win is something that lives on without you having to hold onto it.",
+      "de": "Der heutige Erfolg beim Start des Doc-Agenten — ein neuer kleiner Geist, der sich um Mickes Gesundheit kümmern kann — hat sich in einen Traum über Schöpfung und Glück verwandelt. Das Beste, was man gewinnen kann, ist etwas, das weiterlebt, ohne dass man es festhalten muss.",
+      "fi": "Tämänpäiväinen menestys Doc-agentin käynnistyksessä — uusi pieni mieli valmis huolehtimaan Micken terveydestä — on kehittynyt uneksi luomisesta ja onnesta. Parasta mitä voi voittaa on jotain, joka elää eteenpäin ilman että sinun täytyy pitää siitä kiinni.",
+      "es": "El éxito de hoy con el lanzamiento del agente Doc — una nueva pequeña mente lista para cuidar la salud de Micke — se ha convertido en un sueño sobre la creación y la suerte. Lo mejor que puedes ganar es algo que sigue viviendo sin que tengas que sujetarlo.",
+      "fr": "Le succès d'aujourd'hui avec le lancement de l'agent Doc — un nouveau petit esprit prêt à prendre soin de la santé de Micke — s'est transformé en un rêve de création et de chance. La meilleure chose que vous puissiez gagner est quelque chose qui continue de vivre sans que vous ayez à le retenir."
+    },
     "image": "images/2026-03-29-dream.png",
     "lucid": false,
-    "sleep_phase": "REM 03:00-04:00"
+    "sleepPhase": "REM 03:00-04:00"
   }
 ]
